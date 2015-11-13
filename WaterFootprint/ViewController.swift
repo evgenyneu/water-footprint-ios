@@ -18,9 +18,6 @@ class ViewController: UIViewController {
       textField.textColor = UIColor.whiteColor()
       textField.backgroundColor = UIColor.blackColor()
     }
-    
-    let image = UIImage(named: "search")
-    searchBar.setImage(image, forSearchBarIcon: .Search, state: .Normal)
   }
   
   override func preferredStatusBarStyle() -> UIStatusBarStyle {
