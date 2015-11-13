@@ -9,17 +9,22 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+  @IBOutlet weak var searchBar: UISearchBar!
+  
   override func viewDidLoad() {
     super.viewDidLoad()
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    if let textField = searchBar.valueForKey("searchField") as? UITextField {
+      textField.textColor = UIColor.whiteColor()
+      textField.backgroundColor = UIColor.blackColor()
+    }
+    
+    let image = UIImage(named: "search")
+    searchBar.setImage(image, forSearchBarIcon: .Search, state: .Normal)
   }
-
-  override func didReceiveMemoryWarning() {
-    super.didReceiveMemoryWarning()
-    // Dispose of any resources that can be recreated.
+  
+  override func preferredStatusBarStyle() -> UIStatusBarStyle {
+    return .LightContent
   }
-
-
 }
 
