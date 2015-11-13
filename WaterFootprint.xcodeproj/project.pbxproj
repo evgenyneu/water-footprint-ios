@@ -12,8 +12,27 @@
 		7E0B390E1BF1473F00184C23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E0B390C1BF1473F00184C23 /* Main.storyboard */; };
 		7E0B39101BF1473F00184C23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E0B390F1BF1473F00184C23 /* Assets.xcassets */; };
 		7E0B39131BF1473F00184C23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E0B39111BF1473F00184C23 /* LaunchScreen.storyboard */; };
+		7E3654FF1BF5A22B00C09098 /* DataReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3654FE1BF5A22B00C09098 /* DataReaderTests.swift */; };
+		7E3655071BF5A2BB00C09098 /* DataLanguageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3655061BF5A2BB00C09098 /* DataLanguageTests.swift */; };
+		7E36550A1BF5A2FF00C09098 /* DataLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3655091BF5A2FF00C09098 /* DataLanguage.swift */; };
 		7E3A11651BF580160031C3E1 /* data_en.tsv in Resources */ = {isa = PBXBuildFile; fileRef = 7E3A11641BF580160031C3E1 /* data_en.tsv */; };
+		7E43D49D1BF5A96000688682 /* DataReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E43D49C1BF5A96000688682 /* DataReader.swift */; };
+		7E43D4A01BF5ADC500688682 /* DataParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E43D49F1BF5ADC500688682 /* DataParserTests.swift */; };
+		7E43D4A21BF5AE5F00688682 /* DataParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E43D4A11BF5AE5F00688682 /* DataParser.swift */; };
+		7E43D4A41BF5AE7F00688682 /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E43D4A31BF5AE7F00688682 /* ProductModel.swift */; };
+		7E43D4A81BF5B5D700688682 /* TickTock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E43D4A71BF5B5D700688682 /* TickTock.swift */; };
+		7E43D4A91BF5B5EC00688682 /* TickTock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E43D4A71BF5B5D700688682 /* TickTock.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7E3655011BF5A22B00C09098 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E0B38FD1BF1473F00184C23 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E0B39041BF1473F00184C23;
+			remoteInfo = WaterFootprint;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		7E0B39051BF1473F00184C23 /* WaterFootprint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaterFootprint.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -23,11 +42,28 @@
 		7E0B390F1BF1473F00184C23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E0B39121BF1473F00184C23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7E0B39141BF1473F00184C23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E3654FC1BF5A22B00C09098 /* WaterFootprintTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaterFootprintTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E3654FE1BF5A22B00C09098 /* DataReaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataReaderTests.swift; sourceTree = "<group>"; };
+		7E3655001BF5A22B00C09098 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E3655061BF5A2BB00C09098 /* DataLanguageTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataLanguageTests.swift; sourceTree = "<group>"; };
+		7E3655091BF5A2FF00C09098 /* DataLanguage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataLanguage.swift; sourceTree = "<group>"; };
 		7E3A11641BF580160031C3E1 /* data_en.tsv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = data_en.tsv; path = Data/data_en.tsv; sourceTree = SOURCE_ROOT; };
+		7E43D49C1BF5A96000688682 /* DataReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataReader.swift; sourceTree = "<group>"; };
+		7E43D49F1BF5ADC500688682 /* DataParserTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataParserTests.swift; sourceTree = "<group>"; };
+		7E43D4A11BF5AE5F00688682 /* DataParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataParser.swift; sourceTree = "<group>"; };
+		7E43D4A31BF5AE7F00688682 /* ProductModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
+		7E43D4A71BF5B5D700688682 /* TickTock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TickTock.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		7E0B39021BF1473F00184C23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E3654F91BF5A22B00C09098 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,6 +77,7 @@
 			isa = PBXGroup;
 			children = (
 				7E0B39071BF1473F00184C23 /* WaterFootprint */,
+				7E3654FD1BF5A22B00C09098 /* WaterFootprintTests */,
 				7E0B39061BF1473F00184C23 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				7E0B39051BF1473F00184C23 /* WaterFootprint.app */,
+				7E3654FC1BF5A22B00C09098 /* WaterFootprintTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,7 +94,9 @@
 		7E0B39071BF1473F00184C23 /* WaterFootprint */ = {
 			isa = PBXGroup;
 			children = (
+				7E3655081BF5A2F600C09098 /* Core */,
 				7E3A11631BF580000031C3E1 /* Data */,
+				7E43D4A61BF5B5CE00688682 /* Utils */,
 				7E0B39081BF1473F00184C23 /* AppDelegate.swift */,
 				7E0B390A1BF1473F00184C23 /* ViewController.swift */,
 				7E0B390C1BF1473F00184C23 /* Main.storyboard */,
@@ -67,12 +107,42 @@
 			path = WaterFootprint;
 			sourceTree = "<group>";
 		};
+		7E3654FD1BF5A22B00C09098 /* WaterFootprintTests */ = {
+			isa = PBXGroup;
+			children = (
+				7E3655061BF5A2BB00C09098 /* DataLanguageTests.swift */,
+				7E43D49F1BF5ADC500688682 /* DataParserTests.swift */,
+				7E3654FE1BF5A22B00C09098 /* DataReaderTests.swift */,
+				7E3655001BF5A22B00C09098 /* Info.plist */,
+			);
+			path = WaterFootprintTests;
+			sourceTree = "<group>";
+		};
+		7E3655081BF5A2F600C09098 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				7E3655091BF5A2FF00C09098 /* DataLanguage.swift */,
+				7E43D4A11BF5AE5F00688682 /* DataParser.swift */,
+				7E43D49C1BF5A96000688682 /* DataReader.swift */,
+				7E43D4A31BF5AE7F00688682 /* ProductModel.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
 		7E3A11631BF580000031C3E1 /* Data */ = {
 			isa = PBXGroup;
 			children = (
 				7E3A11641BF580160031C3E1 /* data_en.tsv */,
 			);
 			path = Data;
+			sourceTree = "<group>";
+		};
+		7E43D4A61BF5B5CE00688682 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				7E43D4A71BF5B5D700688682 /* TickTock.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -95,6 +165,24 @@
 			productReference = 7E0B39051BF1473F00184C23 /* WaterFootprint.app */;
 			productType = "com.apple.product-type.application";
 		};
+		7E3654FB1BF5A22B00C09098 /* WaterFootprintTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E3655051BF5A22B00C09098 /* Build configuration list for PBXNativeTarget "WaterFootprintTests" */;
+			buildPhases = (
+				7E3654F81BF5A22B00C09098 /* Sources */,
+				7E3654F91BF5A22B00C09098 /* Frameworks */,
+				7E3654FA1BF5A22B00C09098 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E3655021BF5A22B00C09098 /* PBXTargetDependency */,
+			);
+			name = WaterFootprintTests;
+			productName = WaterFootprintTests;
+			productReference = 7E3654FC1BF5A22B00C09098 /* WaterFootprintTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -107,6 +195,10 @@
 				TargetAttributes = {
 					7E0B39041BF1473F00184C23 = {
 						CreatedOnToolsVersion = 7.1;
+					};
+					7E3654FB1BF5A22B00C09098 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 7E0B39041BF1473F00184C23;
 					};
 				};
 			};
@@ -124,6 +216,7 @@
 			projectRoot = "";
 			targets = (
 				7E0B39041BF1473F00184C23 /* WaterFootprint */,
+				7E3654FB1BF5A22B00C09098 /* WaterFootprintTests */,
 			);
 		};
 /* End PBXProject section */
@@ -140,6 +233,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7E3654FA1BF5A22B00C09098 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -147,12 +247,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E43D49D1BF5A96000688682 /* DataReader.swift in Sources */,
+				7E43D4A41BF5AE7F00688682 /* ProductModel.swift in Sources */,
+				7E43D4A21BF5AE5F00688682 /* DataParser.swift in Sources */,
 				7E0B390B1BF1473F00184C23 /* ViewController.swift in Sources */,
+				7E36550A1BF5A2FF00C09098 /* DataLanguage.swift in Sources */,
 				7E0B39091BF1473F00184C23 /* AppDelegate.swift in Sources */,
+				7E43D4A81BF5B5D700688682 /* TickTock.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E3654F81BF5A22B00C09098 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E43D4A01BF5ADC500688682 /* DataParserTests.swift in Sources */,
+				7E43D4A91BF5B5EC00688682 /* TickTock.swift in Sources */,
+				7E3654FF1BF5A22B00C09098 /* DataReaderTests.swift in Sources */,
+				7E3655071BF5A2BB00C09098 /* DataLanguageTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7E3655021BF5A22B00C09098 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E0B39041BF1473F00184C23 /* WaterFootprint */;
+			targetProxy = 7E3655011BF5A22B00C09098 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		7E0B390C1BF1473F00184C23 /* Main.storyboard */ = {
@@ -279,6 +403,32 @@
 			};
 			name = Release;
 		};
+		7E3655031BF5A22B00C09098 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WaterFootprintTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.evgenii.WaterFootprintTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WaterFootprint.app/WaterFootprint";
+			};
+			name = Debug;
+		};
+		7E3655041BF5A22B00C09098 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WaterFootprintTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.evgenii.WaterFootprintTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WaterFootprint.app/WaterFootprint";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -296,6 +446,15 @@
 			buildConfigurations = (
 				7E0B39181BF1473F00184C23 /* Debug */,
 				7E0B39191BF1473F00184C23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E3655051BF5A22B00C09098 /* Build configuration list for PBXNativeTarget "WaterFootprintTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E3655031BF5A22B00C09098 /* Debug */,
+				7E3655041BF5A22B00C09098 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
