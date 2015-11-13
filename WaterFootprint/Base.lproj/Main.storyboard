@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -23,7 +24,7 @@
                                 <color key="barTintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="0V6-mv-FlD">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="206" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="0V6-mv-FlD">
                                 <rect key="frame" x="0.0" y="64" width="600" height="536"/>
                                 <animations/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -33,13 +34,39 @@
                                 <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <color key="sectionIndexTrackingBackgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Water footprint cell id" id="teM-bS-b4q" customClass="TableViewCell" customModule="WaterFootprint" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="600" height="44"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Water footprint cell id" rowHeight="206" id="teM-bS-b4q" customClass="TableViewCell" customModule="WaterFootprint" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="600" height="206"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="teM-bS-b4q" id="4el-Sv-5Hi">
-                                            <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="205.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="1,977" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LNv-eQ-WGj">
+                                                    <rect key="frame" x="551" y="8" width="40.5" height="189.5"/>
+                                                    <animations/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Barley, rolled or flaked grains" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8hp-cP-c5B">
+                                                    <rect key="frame" x="8" y="8" width="523.5" height="189.5"/>
+                                                    <animations/>
+                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
                                             <animations/>
+                                            <constraints>
+                                                <constraint firstItem="LNv-eQ-WGj" firstAttribute="leading" secondItem="8hp-cP-c5B" secondAttribute="trailing" constant="20" id="0OX-Nm-cQc"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="8hp-cP-c5B" secondAttribute="bottom" id="Hb0-qu-fkG"/>
+                                                <constraint firstItem="8hp-cP-c5B" firstAttribute="top" secondItem="4el-Sv-5Hi" secondAttribute="topMargin" id="PUL-qx-nuf"/>
+                                                <constraint firstItem="LNv-eQ-WGj" firstAttribute="height" secondItem="8hp-cP-c5B" secondAttribute="height" id="SgC-UR-UBY"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="LNv-eQ-WGj" secondAttribute="bottom" id="cVx-cz-aUZ"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="LNv-eQ-WGj" secondAttribute="trailing" id="q3A-0q-Tcg"/>
+                                                <constraint firstItem="LNv-eQ-WGj" firstAttribute="top" secondItem="4el-Sv-5Hi" secondAttribute="topMargin" id="qCy-x6-NlY"/>
+                                                <constraint firstItem="8hp-cP-c5B" firstAttribute="leading" secondItem="4el-Sv-5Hi" secondAttribute="leadingMargin" id="yP8-ia-0f4"/>
+                                            </constraints>
                                         </tableViewCellContentView>
                                         <animations/>
                                     </tableViewCell>
