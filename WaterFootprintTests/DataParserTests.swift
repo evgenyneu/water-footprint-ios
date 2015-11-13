@@ -24,7 +24,7 @@ class DataParserTests: XCTestCase {
     XCTAssertEqual(222, productTwo.waterLitres)
   }
   
-  func testReadAndParse() {
+  func testReadAndParseEnglish() {
     let tick = TickTock()
     let result = DataParser.readAndParse("en")
     tick.output()
