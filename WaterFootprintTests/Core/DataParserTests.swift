@@ -9,7 +9,7 @@ class DataParserTests: XCTestCase {
   }
   
   func testParse() {
-    let result = DataParser.parse("one\t11\t111\ntwo\t22\t222")
+    let result = DataParser.parse("one\t11\t111\r\ntwo\t22\t222")
     
     XCTAssertEqual(2, result.count)
     
