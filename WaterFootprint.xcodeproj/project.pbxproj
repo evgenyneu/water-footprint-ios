@@ -16,6 +16,9 @@
 		7E1EC9A61BF6A365005F6E58 /* DataLanguageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1EC9A31BF6A365005F6E58 /* DataLanguageTests.swift */; };
 		7E1EC9A71BF6A365005F6E58 /* DataParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1EC9A41BF6A365005F6E58 /* DataParserTests.swift */; };
 		7E1EC9A81BF6A365005F6E58 /* DataReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1EC9A51BF6A365005F6E58 /* DataReaderTests.swift */; };
+		7E1EC9AB1BF6A415005F6E58 /* TableViewDataSourceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1EC9AA1BF6A415005F6E58 /* TableViewDataSourceTests.swift */; };
+		7E1EC9AD1BF6A44C005F6E58 /* TableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1EC9AC1BF6A44C005F6E58 /* TableViewDataSource.swift */; };
+		7E1EC9B21BF6A64D005F6E58 /* TestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1EC9B11BF6A64D005F6E58 /* TestHelpers.swift */; };
 		7E36550A1BF5A2FF00C09098 /* DataLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3655091BF5A2FF00C09098 /* DataLanguage.swift */; };
 		7E3A11651BF580160031C3E1 /* data_en.tsv in Resources */ = {isa = PBXBuildFile; fileRef = 7E3A11641BF580160031C3E1 /* data_en.tsv */; };
 		7E43D49D1BF5A96000688682 /* DataReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E43D49C1BF5A96000688682 /* DataReader.swift */; };
@@ -47,6 +50,9 @@
 		7E1EC9A31BF6A365005F6E58 /* DataLanguageTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataLanguageTests.swift; sourceTree = "<group>"; };
 		7E1EC9A41BF6A365005F6E58 /* DataParserTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataParserTests.swift; sourceTree = "<group>"; };
 		7E1EC9A51BF6A365005F6E58 /* DataReaderTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataReaderTests.swift; sourceTree = "<group>"; };
+		7E1EC9AA1BF6A415005F6E58 /* TableViewDataSourceTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewDataSourceTests.swift; sourceTree = "<group>"; };
+		7E1EC9AC1BF6A44C005F6E58 /* TableViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewDataSource.swift; sourceTree = "<group>"; };
+		7E1EC9B11BF6A64D005F6E58 /* TestHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestHelpers.swift; sourceTree = "<group>"; };
 		7E3654FC1BF5A22B00C09098 /* WaterFootprintTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaterFootprintTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E3655001BF5A22B00C09098 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E3655091BF5A2FF00C09098 /* DataLanguage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataLanguage.swift; sourceTree = "<group>"; };
@@ -114,6 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				7E1EC9A01BF6A33E005F6E58 /* TableViewObject.swift */,
+				7E1EC9AC1BF6A44C005F6E58 /* TableViewDataSource.swift */,
 			);
 			path = TableView;
 			sourceTree = "<group>";
@@ -128,10 +135,28 @@
 			path = Core;
 			sourceTree = "<group>";
 		};
+		7E1EC9A91BF6A409005F6E58 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				7E1EC9AA1BF6A415005F6E58 /* TableViewDataSourceTests.swift */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		7E1EC9AF1BF6A628005F6E58 /* TestHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				7E1EC9B11BF6A64D005F6E58 /* TestHelpers.swift */,
+			);
+			path = TestHelpers;
+			sourceTree = "<group>";
+		};
 		7E3654FD1BF5A22B00C09098 /* WaterFootprintTests */ = {
 			isa = PBXGroup;
 			children = (
 				7E1EC9A21BF6A34F005F6E58 /* Core */,
+				7E1EC9A91BF6A409005F6E58 /* TableView */,
+				7E1EC9AF1BF6A628005F6E58 /* TestHelpers */,
 				7E3655001BF5A22B00C09098 /* Info.plist */,
 			);
 			path = WaterFootprintTests;
@@ -266,6 +291,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E1EC9AD1BF6A44C005F6E58 /* TableViewDataSource.swift in Sources */,
 				7E43D49D1BF5A96000688682 /* DataReader.swift in Sources */,
 				7E43D4A41BF5AE7F00688682 /* ProductModel.swift in Sources */,
 				7E1EC9A11BF6A33E005F6E58 /* TableViewObject.swift in Sources */,
@@ -281,10 +307,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E1EC9AB1BF6A415005F6E58 /* TableViewDataSourceTests.swift in Sources */,
 				7E1EC9A81BF6A365005F6E58 /* DataReaderTests.swift in Sources */,
 				7E1EC9A71BF6A365005F6E58 /* DataParserTests.swift in Sources */,
 				7E43D4A91BF5B5EC00688682 /* TickTock.swift in Sources */,
 				7E1EC9A61BF6A365005F6E58 /* DataLanguageTests.swift in Sources */,
+				7E1EC9B21BF6A64D005F6E58 /* TestHelpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
