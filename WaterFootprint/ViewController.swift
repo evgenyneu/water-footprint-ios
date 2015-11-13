@@ -2,11 +2,13 @@ import UIKit
 
 class ViewController: UIViewController {
   @IBOutlet weak var searchBar: UISearchBar!
+  @IBOutlet var tableViewObject: TableViewObject!
   
   override func viewDidLoad() {
     super.viewDidLoad()
     
     styleSearchField()
+    tableViewObject.setUp()
   }
   
   private func styleSearchField() {

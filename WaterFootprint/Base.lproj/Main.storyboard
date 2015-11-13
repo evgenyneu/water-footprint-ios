@@ -53,6 +53,7 @@
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
                     <connections>
                         <outlet property="searchBar" destination="gHk-bO-9aW" id="KGh-yU-tP0"/>
+                        <outlet property="tableViewObject" destination="zH7-80-b5G" id="mvF-tc-mLd"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -61,6 +62,11 @@
                         <action selector="didTapTableView:" destination="BYZ-38-t0r" id="OBM-Zb-F8p"/>
                     </connections>
                 </tapGestureRecognizer>
+                <customObject id="zH7-80-b5G" customClass="TableViewObject" customModule="WaterFootprint" customModuleProvider="target">
+                    <connections>
+                        <outlet property="tableView" destination="0V6-mv-FlD" id="oC9-Ue-01f"/>
+                    </connections>
+                </customObject>
             </objects>
             <point key="canvasLocation" x="268" y="335"/>
         </scene>

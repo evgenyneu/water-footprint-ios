@@ -12,6 +12,7 @@
 		7E0B390E1BF1473F00184C23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E0B390C1BF1473F00184C23 /* Main.storyboard */; };
 		7E0B39101BF1473F00184C23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E0B390F1BF1473F00184C23 /* Assets.xcassets */; };
 		7E0B39131BF1473F00184C23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E0B39111BF1473F00184C23 /* LaunchScreen.storyboard */; };
+		7E1EC99B1BF6A204005F6E58 /* TableViewObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1EC99A1BF6A204005F6E58 /* TableViewObject.swift */; };
 		7E3654FF1BF5A22B00C09098 /* DataReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3654FE1BF5A22B00C09098 /* DataReaderTests.swift */; };
 		7E3655071BF5A2BB00C09098 /* DataLanguageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3655061BF5A2BB00C09098 /* DataLanguageTests.swift */; };
 		7E36550A1BF5A2FF00C09098 /* DataLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3655091BF5A2FF00C09098 /* DataLanguage.swift */; };
@@ -42,6 +43,7 @@
 		7E0B390F1BF1473F00184C23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E0B39121BF1473F00184C23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7E0B39141BF1473F00184C23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E1EC99A1BF6A204005F6E58 /* TableViewObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewObject.swift; sourceTree = "<group>"; };
 		7E3654FC1BF5A22B00C09098 /* WaterFootprintTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaterFootprintTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E3654FE1BF5A22B00C09098 /* DataReaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataReaderTests.swift; sourceTree = "<group>"; };
 		7E3655001BF5A22B00C09098 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				7E0B39081BF1473F00184C23 /* AppDelegate.swift */,
 				7E0B390A1BF1473F00184C23 /* ViewController.swift */,
 				7E0B390C1BF1473F00184C23 /* Main.storyboard */,
+				7E1EC99A1BF6A204005F6E58 /* TableViewObject.swift */,
 				7E0B390F1BF1473F00184C23 /* Assets.xcassets */,
 				7E0B39111BF1473F00184C23 /* LaunchScreen.storyboard */,
 				7E0B39141BF1473F00184C23 /* Info.plist */,
@@ -249,6 +252,7 @@
 			files = (
 				7E43D49D1BF5A96000688682 /* DataReader.swift in Sources */,
 				7E43D4A41BF5AE7F00688682 /* ProductModel.swift in Sources */,
+				7E1EC99B1BF6A204005F6E58 /* TableViewObject.swift in Sources */,
 				7E43D4A21BF5AE5F00688682 /* DataParser.swift in Sources */,
 				7E0B390B1BF1473F00184C23 /* ViewController.swift in Sources */,
 				7E36550A1BF5A2FF00C09098 /* DataLanguage.swift in Sources */,
