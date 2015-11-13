@@ -19,6 +19,10 @@
 		7E1EC9AB1BF6A415005F6E58 /* TableViewDataSourceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1EC9AA1BF6A415005F6E58 /* TableViewDataSourceTests.swift */; };
 		7E1EC9AD1BF6A44C005F6E58 /* TableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1EC9AC1BF6A44C005F6E58 /* TableViewDataSource.swift */; };
 		7E1EC9B21BF6A64D005F6E58 /* TestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1EC9B11BF6A64D005F6E58 /* TestHelpers.swift */; };
+		7E1EC9B41BF6A7F1005F6E58 /* TableViewCellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1EC9B31BF6A7F1005F6E58 /* TableViewCellTests.swift */; };
+		7E1EC9B61BF6A855005F6E58 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1EC9B51BF6A855005F6E58 /* TableViewCell.swift */; };
+		7E1EC9B81BF6A8B9005F6E58 /* WaterConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1EC9B71BF6A8B9005F6E58 /* WaterConstants.swift */; };
+		7E1EC9BC1BF6AA51005F6E58 /* WaterArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1EC9BB1BF6AA51005F6E58 /* WaterArray.swift */; };
 		7E36550A1BF5A2FF00C09098 /* DataLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3655091BF5A2FF00C09098 /* DataLanguage.swift */; };
 		7E3A11651BF580160031C3E1 /* data_en.tsv in Resources */ = {isa = PBXBuildFile; fileRef = 7E3A11641BF580160031C3E1 /* data_en.tsv */; };
 		7E43D49D1BF5A96000688682 /* DataReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E43D49C1BF5A96000688682 /* DataReader.swift */; };
@@ -53,6 +57,10 @@
 		7E1EC9AA1BF6A415005F6E58 /* TableViewDataSourceTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewDataSourceTests.swift; sourceTree = "<group>"; };
 		7E1EC9AC1BF6A44C005F6E58 /* TableViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewDataSource.swift; sourceTree = "<group>"; };
 		7E1EC9B11BF6A64D005F6E58 /* TestHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestHelpers.swift; sourceTree = "<group>"; };
+		7E1EC9B31BF6A7F1005F6E58 /* TableViewCellTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCellTests.swift; sourceTree = "<group>"; };
+		7E1EC9B51BF6A855005F6E58 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		7E1EC9B71BF6A8B9005F6E58 /* WaterConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaterConstants.swift; sourceTree = "<group>"; };
+		7E1EC9BB1BF6AA51005F6E58 /* WaterArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaterArray.swift; sourceTree = "<group>"; };
 		7E3654FC1BF5A22B00C09098 /* WaterFootprintTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaterFootprintTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E3655001BF5A22B00C09098 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E3655091BF5A2FF00C09098 /* DataLanguage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataLanguage.swift; sourceTree = "<group>"; };
@@ -121,6 +129,7 @@
 			children = (
 				7E1EC9A01BF6A33E005F6E58 /* TableViewObject.swift */,
 				7E1EC9AC1BF6A44C005F6E58 /* TableViewDataSource.swift */,
+				7E1EC9B51BF6A855005F6E58 /* TableViewCell.swift */,
 			);
 			path = TableView;
 			sourceTree = "<group>";
@@ -138,6 +147,7 @@
 		7E1EC9A91BF6A409005F6E58 /* TableView */ = {
 			isa = PBXGroup;
 			children = (
+				7E1EC9B31BF6A7F1005F6E58 /* TableViewCellTests.swift */,
 				7E1EC9AA1BF6A415005F6E58 /* TableViewDataSourceTests.swift */,
 			);
 			path = TableView;
@@ -169,6 +179,7 @@
 				7E43D4A11BF5AE5F00688682 /* DataParser.swift */,
 				7E43D49C1BF5A96000688682 /* DataReader.swift */,
 				7E43D4A31BF5AE7F00688682 /* ProductModel.swift */,
+				7E1EC9B71BF6A8B9005F6E58 /* WaterConstants.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -185,6 +196,7 @@
 			isa = PBXGroup;
 			children = (
 				7E43D4A71BF5B5D700688682 /* TickTock.swift */,
+				7E1EC9BB1BF6AA51005F6E58 /* WaterArray.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -292,10 +304,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E1EC9AD1BF6A44C005F6E58 /* TableViewDataSource.swift in Sources */,
+				7E1EC9BC1BF6AA51005F6E58 /* WaterArray.swift in Sources */,
 				7E43D49D1BF5A96000688682 /* DataReader.swift in Sources */,
 				7E43D4A41BF5AE7F00688682 /* ProductModel.swift in Sources */,
 				7E1EC9A11BF6A33E005F6E58 /* TableViewObject.swift in Sources */,
+				7E1EC9B81BF6A8B9005F6E58 /* WaterConstants.swift in Sources */,
 				7E43D4A21BF5AE5F00688682 /* DataParser.swift in Sources */,
+				7E1EC9B61BF6A855005F6E58 /* TableViewCell.swift in Sources */,
 				7E0B390B1BF1473F00184C23 /* ViewController.swift in Sources */,
 				7E36550A1BF5A2FF00C09098 /* DataLanguage.swift in Sources */,
 				7E0B39091BF1473F00184C23 /* AppDelegate.swift in Sources */,
@@ -309,6 +324,7 @@
 			files = (
 				7E1EC9AB1BF6A415005F6E58 /* TableViewDataSourceTests.swift in Sources */,
 				7E1EC9A81BF6A365005F6E58 /* DataReaderTests.swift in Sources */,
+				7E1EC9B41BF6A7F1005F6E58 /* TableViewCellTests.swift in Sources */,
 				7E1EC9A71BF6A365005F6E58 /* DataParserTests.swift in Sources */,
 				7E43D4A91BF5B5EC00688682 /* TickTock.swift in Sources */,
 				7E1EC9A61BF6A365005F6E58 /* DataLanguageTests.swift in Sources */,

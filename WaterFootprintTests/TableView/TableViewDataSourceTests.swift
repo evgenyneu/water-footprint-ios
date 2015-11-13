@@ -7,6 +7,10 @@ class TableViewDataSourceTests: XCTestCase {
   var models = [ProductModel]()
   var viewController: ViewController!
   
+  var tableView: UITableView {
+    return viewController.tableViewObject.tableView
+  }
+  
   override func setUp() {
     super.setUp()
     
@@ -26,5 +30,27 @@ class TableViewDataSourceTests: XCTestCase {
   }
   
   func testNumberOfRows() {
+    let result = obj.tableView(tableView, numberOfRowsInSection: 0)
+    
+    XCTAssertEqual(2, result)
+  }
+  
+  func testGetCell() {
+    let indexPath = NSIndexPath(forRow: 1, inSection: 0)
+    let result = obj.tableView(tableView, cellForRowAtIndexPath: indexPath) as? TableViewCell
+    
+    XCTAssert(result != nil)
+  }
+  
+  // MARK: - Model at row
+  
+  func testModelAtRow() {
+    let result = obj.modelAtRow(0)
+    XCTAssertEqual("Beef", result?.name)
+  }
+  
+  func testModelAtRowNil() {
+    let result = obj.modelAtRow(345)
+    XCTAssert(result == nil)
   }
 }
