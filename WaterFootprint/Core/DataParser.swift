@@ -1,6 +1,10 @@
 import UIKit
 
 struct DataParser {
+  static func readAndParseForCurrentLanguage() -> [ProductModel] {
+    return readAndParse(DataLanguage.supportedLanguage())
+    
+  }
   
   static func readAndParse(languageCode: String) -> [ProductModel] {
     let data = DataReader.read(languageCode)

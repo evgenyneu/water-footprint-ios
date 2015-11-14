@@ -9,6 +9,12 @@ class ViewController: UIViewController {
     
     styleSearchField()
     tableViewObject.setUp()
+    showData()
+  }
+  
+  private func showData() {
+    let data = DataParser.readAndParseForCurrentLanguage()
+    tableViewObject.showData(data)
   }
   
   private func styleSearchField() {

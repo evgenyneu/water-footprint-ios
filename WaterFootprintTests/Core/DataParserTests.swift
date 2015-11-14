@@ -3,6 +3,12 @@ import XCTest
 @testable import WaterFootprint
 
 class DataParserTests: XCTestCase {
+  
+  override func tearDown() {
+    super.tearDown()
+    DataLanguage._currentLanguageCode = nil
+  }
+  
   func testFileName() {
     XCTAssertEqual("data_en.tsv", DataReader.fileName("en"))
     XCTAssertEqual("data_ja.tsv", DataReader.fileName("ja"))
@@ -25,9 +31,7 @@ class DataParserTests: XCTestCase {
   }
   
   func testReadAndParseEnglish() {
-    let tick = TickTock()
     let result = DataParser.readAndParse("en")
-    tick.output()
     
     XCTAssertEqual(234, result.count)
         
@@ -45,5 +49,13 @@ class DataParserTests: XCTestCase {
     XCTAssertEqual("Yams", last.name)
     XCTAssertEqual("", last.synonyms)
     XCTAssertEqual(343, last.waterLitres)
+  }
+  
+  func testReadAndParseForCurrentLanguage() {
+    DataLanguage._currentLanguageCode = "en"
+    let result = DataParser.readAndParseForCurrentLanguage()
+    
+    XCTAssertEqual(234, result.count)
+    XCTAssertEqual("Abaca fibre", result.first?.name)
   }
 }

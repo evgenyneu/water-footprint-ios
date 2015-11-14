@@ -3,8 +3,9 @@ import XCTest
 
 class DataLanguageTests: XCTestCase {
   
-  func testSupportedLanguageShoer() {
-    XCTAssertEqual(2, DataLanguage.supportedLanguage().characters.count)
+  func testOverrideSupportedLanguage() {
+    DataLanguage._currentLanguageCode = "da"
+    XCTAssertEqual("da", DataLanguage.supportedLanguage())
   }
   
   func testSupportedLanguage() {
