@@ -6,6 +6,8 @@ class TableViewObject: NSObject {
  
   func setUp() {
     tableView.tableFooterView = UIView(frame: CGRectZero)
+    tableView.rowHeight = UITableViewAutomaticDimension
+    tableView.estimatedRowHeight = 44
   }
   
   func showData(models: [ProductModel]) {
