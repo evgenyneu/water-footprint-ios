@@ -108,6 +108,7 @@
                 </tapGestureRecognizer>
                 <customObject id="zH7-80-b5G" customClass="TableViewObject" customModule="WaterFootprint" customModuleProvider="target">
                     <connections>
+                        <outlet property="bottomLayoutConstraint" destination="CV8-xE-Q4U" id="sQw-bP-Wbl"/>
                         <outlet property="tableView" destination="0V6-mv-FlD" id="oC9-Ue-01f"/>
                     </connections>
                 </customObject>
