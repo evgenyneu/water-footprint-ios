@@ -14,6 +14,7 @@ class TableViewDataSourceTests: XCTestCase {
   override func setUp() {
     super.setUp()
     
+    models = [ProductModel]()
     models.append(ProductModel(name: "Beef", synonyms: "Cow meat", waterLitres: 15415))
     models.append(ProductModel(name: "Cheese", synonyms: "", waterLitres: 5060))
     
