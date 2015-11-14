@@ -69,6 +69,10 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <animations/>
+                                        <connections>
+                                            <outlet property="productLabel" destination="8hp-cP-c5B" id="htr-94-0B2"/>
+                                            <outlet property="waterLitresLabel" destination="LNv-eQ-WGj" id="IZD-j3-2Jn"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>

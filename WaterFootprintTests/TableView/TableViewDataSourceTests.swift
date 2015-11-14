@@ -39,7 +39,8 @@ class TableViewDataSourceTests: XCTestCase {
     let indexPath = NSIndexPath(forRow: 1, inSection: 0)
     let result = obj.tableView(tableView, cellForRowAtIndexPath: indexPath) as? TableViewCell
     
-    XCTAssert(result != nil)
+    XCTAssertEqual("Cheese", result?.productLabel.text)
+    XCTAssertEqual("5,060", result?.waterLitresLabel.text)
   }
   
   // MARK: - Model at row
