@@ -1,7 +1,6 @@
 import UIKit
 
 class ViewController: UIViewController {
-  @IBOutlet weak var searchBar: UISearchBar!
   @IBOutlet var tableViewObject: TableViewObject!
   @IBOutlet var searchBarObject: SearchBarObject!
   
