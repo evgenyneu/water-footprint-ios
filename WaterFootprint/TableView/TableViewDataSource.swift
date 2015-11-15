@@ -24,7 +24,7 @@ class TableViewDataSource: NSObject, UITableViewDataSource {
     
     return cell
   }
-    
+  
   func modelAtRow(rowIndex: Int) -> ProductModel? {
     return WaterArray.getByIndexSafe(rowIndex, array: models)
   }
