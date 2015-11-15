@@ -1,6 +1,16 @@
 import UIKit
 
 struct DataParser {
+  
+  static private var dataCache: [ProductModel]?
+  
+  static func readAndParseForCurrentLanguageCached() -> [ProductModel] {
+    if let dataCache = dataCache { return dataCache }
+    let data = readAndParseForCurrentLanguage()
+    dataCache = data
+    return data
+  }
+  
   static func readAndParseForCurrentLanguage() -> [ProductModel] {
     return readAndParse(DataLanguage.supportedLanguage())
   }
