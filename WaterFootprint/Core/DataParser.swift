@@ -3,7 +3,6 @@ import UIKit
 struct DataParser {
   static func readAndParseForCurrentLanguage() -> [ProductModel] {
     return readAndParse(DataLanguage.supportedLanguage())
-    
   }
   
   static func readAndParse(languageCode: String) -> [ProductModel] {
@@ -27,7 +26,7 @@ struct DataParser {
           synonyms: fields[1],
           waterLitres: waterLitres)
       } else {
-        preconditionFailure("Incorrect number of fields in data file: \(String(line)).")
+        preconditionFailure("Can not convert water litres to integer: \(String(line)).")
       }
     }
   }

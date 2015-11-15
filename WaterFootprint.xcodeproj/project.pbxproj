@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		7E012EAF1BF82FBC00F14209 /* TableViewHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E012EAE1BF82FBC00F14209 /* TableViewHeaderCell.swift */; };
 		7E012EB11BF8331700F14209 /* WaterFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E012EB01BF8331700F14209 /* WaterFont.swift */; };
+		7E012EB31BF83A9800F14209 /* TableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E012EB21BF83A9800F14209 /* TableViewDelegate.swift */; };
 		7E0B39091BF1473F00184C23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0B39081BF1473F00184C23 /* AppDelegate.swift */; };
 		7E0B390B1BF1473F00184C23 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0B390A1BF1473F00184C23 /* ViewController.swift */; };
 		7E0B390E1BF1473F00184C23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E0B390C1BF1473F00184C23 /* Main.storyboard */; };
@@ -50,6 +51,7 @@
 /* Begin PBXFileReference section */
 		7E012EAE1BF82FBC00F14209 /* TableViewHeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewHeaderCell.swift; sourceTree = "<group>"; };
 		7E012EB01BF8331700F14209 /* WaterFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaterFont.swift; sourceTree = "<group>"; };
+		7E012EB21BF83A9800F14209 /* TableViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewDelegate.swift; sourceTree = "<group>"; };
 		7E0B39051BF1473F00184C23 /* WaterFootprint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaterFootprint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E0B39081BF1473F00184C23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7E0B390A1BF1473F00184C23 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -138,10 +140,11 @@
 		7E1EC99F1BF6A321005F6E58 /* TableView */ = {
 			isa = PBXGroup;
 			children = (
-				7E1EC9A01BF6A33E005F6E58 /* TableViewObject.swift */,
-				7E1EC9AC1BF6A44C005F6E58 /* TableViewDataSource.swift */,
 				7E1EC9B51BF6A855005F6E58 /* TableViewCell.swift */,
+				7E1EC9AC1BF6A44C005F6E58 /* TableViewDataSource.swift */,
+				7E012EB21BF83A9800F14209 /* TableViewDelegate.swift */,
 				7E012EAE1BF82FBC00F14209 /* TableViewHeaderCell.swift */,
+				7E1EC9A01BF6A33E005F6E58 /* TableViewObject.swift */,
 			);
 			path = TableView;
 			sourceTree = "<group>";
@@ -326,6 +329,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E012EB31BF83A9800F14209 /* TableViewDelegate.swift in Sources */,
 				7E1EC9AD1BF6A44C005F6E58 /* TableViewDataSource.swift in Sources */,
 				7E1EC9C31BF6DDF7005F6E58 /* UnderKeyboard.swift.swift in Sources */,
 				7E1EC9BC1BF6AA51005F6E58 /* WaterArray.swift in Sources */,
