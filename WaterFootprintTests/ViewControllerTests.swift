@@ -3,7 +3,6 @@ import XCTest
 
 class ViewControllerTests: XCTestCase {
   
-  var models = [ProductModel]()
   var viewController: ViewController!
   
   var tableView: UITableView {
@@ -12,10 +11,6 @@ class ViewControllerTests: XCTestCase {
   
   override func setUp() {
     super.setUp()
-    
-    models = [ProductModel]()
-    models.append(ProductModel(name: "Beef", synonyms: "Cow meat", waterLitres: 15415))
-    models.append(ProductModel(name: "Cheese", synonyms: "", waterLitres: 5060))
     
     viewController = TestHelpers.initViewController()
     viewController.beginAppearanceTransition(true, animated: false)
@@ -44,5 +39,43 @@ class ViewControllerTests: XCTestCase {
     
     XCTAssertEqual("Orange juice", tableViewCell?.productLabel.text)
     XCTAssertEqual("1,018", tableViewCell?.waterLitresLabel.text)
+  }
+  
+  // MARK: - Search
+  
+  func testSearch() {
+    DataLanguage._currentLanguageCode = "en"
+    viewController.searchBarObject.didSearch?("Meat")
+    
+    let numberOfRows = tableView.dataSource?.tableView(tableView, numberOfRowsInSection: 0)
+    XCTAssertEqual(5, numberOfRows)
+    
+    // Show cell
+    // ----------
+    
+    let indexPath = NSIndexPath(forRow: 0, inSection: 0)
+    
+    let tableViewCell = tableView.dataSource?.tableView(tableView, cellForRowAtIndexPath: indexPath)
+      as? TableViewCell
+    
+    XCTAssertEqual("Beef", tableViewCell?.productLabel.text)
+  }
+  
+  func testSearch_emptySearchText() {
+    DataLanguage._currentLanguageCode = "en"
+    viewController.searchBarObject.didSearch?("")
+    
+    let numberOfRows = tableView.dataSource?.tableView(tableView, numberOfRowsInSection: 0)
+    XCTAssertEqual(234, numberOfRows)
+    
+    // Show cell
+    // ----------
+    
+    let indexPath = NSIndexPath(forRow: 0, inSection: 0)
+    
+    let tableViewCell = tableView.dataSource?.tableView(tableView, cellForRowAtIndexPath: indexPath)
+      as? TableViewCell
+    
+    XCTAssertEqual("Abaca fibre", tableViewCell?.productLabel.text)
   }
 }

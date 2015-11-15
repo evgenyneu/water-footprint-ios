@@ -11,6 +11,7 @@ class ViewController: UIViewController {
     searchBarObject.setUp()
     tableViewObject.setUp()
     showData()
+    searchBarObject.didSearch = didSearch
   }
   
   private func showData() {
@@ -24,6 +25,17 @@ class ViewController: UIViewController {
   
   @IBAction func didTapTableView(sender: AnyObject) {
     searchBarObject.searchBar.resignFirstResponder()
+  }
+  
+  private func didSearch(searchText: String) {
+    var data = DataParser.readAndParseForCurrentLanguage()
+    
+    if !WaterString.blank(searchText) {
+      data = DataSearch.dataMatchingSentence(data, sentence: searchText)
+    }
+
+    tableViewObject.showData(data)
+    tableViewObject.tableView.reloadData()
   }
 }
 

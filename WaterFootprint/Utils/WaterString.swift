@@ -16,5 +16,11 @@ public struct WaterString {
     
     return text.rangeOfString(substring, options: options) != nil
   }
-
+  
+  public static func blank(text: String) -> Bool {
+    let trimmed = text.stringByTrimmingCharactersInSet(
+      NSCharacterSet.whitespaceAndNewlineCharacterSet())
+    
+    return trimmed.isEmpty
+  }
 }
