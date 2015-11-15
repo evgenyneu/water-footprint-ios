@@ -10,6 +10,7 @@
 		7E012EAF1BF82FBC00F14209 /* TableViewHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E012EAE1BF82FBC00F14209 /* TableViewHeaderCell.swift */; };
 		7E012EB11BF8331700F14209 /* WaterFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E012EB01BF8331700F14209 /* WaterFont.swift */; };
 		7E012EB31BF83A9800F14209 /* TableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E012EB21BF83A9800F14209 /* TableViewDelegate.swift */; };
+		7E012EB61BF83C9C00F14209 /* SearchBarObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E012EB51BF83C9C00F14209 /* SearchBarObject.swift */; };
 		7E0B39091BF1473F00184C23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0B39081BF1473F00184C23 /* AppDelegate.swift */; };
 		7E0B390B1BF1473F00184C23 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0B390A1BF1473F00184C23 /* ViewController.swift */; };
 		7E0B390E1BF1473F00184C23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E0B390C1BF1473F00184C23 /* Main.storyboard */; };
@@ -52,6 +53,7 @@
 		7E012EAE1BF82FBC00F14209 /* TableViewHeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewHeaderCell.swift; sourceTree = "<group>"; };
 		7E012EB01BF8331700F14209 /* WaterFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaterFont.swift; sourceTree = "<group>"; };
 		7E012EB21BF83A9800F14209 /* TableViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewDelegate.swift; sourceTree = "<group>"; };
+		7E012EB51BF83C9C00F14209 /* SearchBarObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchBarObject.swift; sourceTree = "<group>"; };
 		7E0B39051BF1473F00184C23 /* WaterFootprint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaterFootprint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E0B39081BF1473F00184C23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7E0B390A1BF1473F00184C23 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -101,6 +103,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7E012EB41BF83C8800F14209 /* SearchBar */ = {
+			isa = PBXGroup;
+			children = (
+				7E012EB51BF83C9C00F14209 /* SearchBarObject.swift */,
+			);
+			path = SearchBar;
+			sourceTree = "<group>";
+		};
 		7E0B38FC1BF1473F00184C23 = {
 			isa = PBXGroup;
 			children = (
@@ -125,6 +135,7 @@
 				7E1EC9C11BF6DDED005F6E58 /* Components */,
 				7E3655081BF5A2F600C09098 /* Core */,
 				7E3A11631BF580000031C3E1 /* Data */,
+				7E012EB41BF83C8800F14209 /* SearchBar */,
 				7E1EC99F1BF6A321005F6E58 /* TableView */,
 				7E43D4A61BF5B5CE00688682 /* Utils */,
 				7E0B39081BF1473F00184C23 /* AppDelegate.swift */,
@@ -331,6 +342,7 @@
 			files = (
 				7E012EB31BF83A9800F14209 /* TableViewDelegate.swift in Sources */,
 				7E1EC9AD1BF6A44C005F6E58 /* TableViewDataSource.swift in Sources */,
+				7E012EB61BF83C9C00F14209 /* SearchBarObject.swift in Sources */,
 				7E1EC9C31BF6DDF7005F6E58 /* UnderKeyboard.swift.swift in Sources */,
 				7E1EC9BC1BF6AA51005F6E58 /* WaterArray.swift in Sources */,
 				7E43D49D1BF5A96000688682 /* DataReader.swift in Sources */,

@@ -41,14 +41,14 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="Litre / kg" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pDf-Hz-tFc">
-                                                    <rect key="frame" x="528" y="13" width="63.5" height="31.5"/>
+                                                    <rect key="frame" x="525" y="13" width="66.5" height="31.5"/>
                                                     <animations/>
-                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VPm-3V-NKO">
-                                                    <rect key="frame" x="0.0" y="56.5" width="600" height="1"/>
+                                                    <rect key="frame" x="0.0" y="56" width="600" height="1"/>
                                                     <animations/>
                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     <constraints>
@@ -137,11 +137,16 @@
                     </view>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
                     <connections>
-                        <outlet property="searchBar" destination="gHk-bO-9aW" id="KGh-yU-tP0"/>
+                        <outlet property="searchBarObject" destination="HyO-Pp-qEY" id="blo-kg-9db"/>
                         <outlet property="tableViewObject" destination="zH7-80-b5G" id="mvF-tc-mLd"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <customObject id="HyO-Pp-qEY" customClass="SearchBarObject" customModule="WaterFootprint" customModuleProvider="target">
+                    <connections>
+                        <outlet property="searchBar" destination="gHk-bO-9aW" id="iMV-Jg-CiR"/>
+                    </connections>
+                </customObject>
                 <tapGestureRecognizer id="w3U-ma-S9S">
                     <connections>
                         <action selector="didTapTableView:" destination="BYZ-38-t0r" id="OBM-Zb-F8p"/>
