@@ -2,7 +2,7 @@ import UIKit
 
 class TableViewDelegate: NSObject, UITableViewDelegate {
   func tableView(tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
-    guard let cell = tableView.dequeueReusableCellWithIdentifier("Water footprint table header")
+    guard let cell = tableView.dequeueReusableCellWithIdentifier(WaterConstants.table.headerCellId)
       as? TableViewHaaderCell else { return nil }
     
     cell.setup()

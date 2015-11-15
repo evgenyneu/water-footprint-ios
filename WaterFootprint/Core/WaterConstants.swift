@@ -3,5 +3,6 @@ struct WaterConstants {
 }
 
 struct WaterConstantsTable {
+  let headerCellId = "Water footprint table header"
   let cellId = "Water footprint cell id"
 }
