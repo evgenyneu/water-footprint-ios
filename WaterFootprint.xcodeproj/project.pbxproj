@@ -300,6 +300,7 @@
 				TargetAttributes = {
 					7E0B39041BF1473F00184C23 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = BS677JRE62;
 					};
 					7E3654FB1BF5A22B00C09098 = {
 						CreatedOnToolsVersion = 7.1.1;
@@ -509,6 +510,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = WaterFootprint/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.evgenii.WaterFootprint;
@@ -520,6 +522,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = WaterFootprint/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.evgenii.WaterFootprint;
