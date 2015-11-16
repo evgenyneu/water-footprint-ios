@@ -1,4 +1,18 @@
-Water footprint app lets you find out how many liters of freshwater is needed to produce one kilogram of different agricultural products. The app will let you scroll through the products like almonds, potatoes and cotton fabric and see their freshwater usage. For example, one needs about 15 thousand liters or water to make a single kilogram of beef. In comparison, it takes 285 liters or water to make one kilo of potatoes.
+Water footprint app lets you find out how many liters of freshwater is needed to produce one kilogram of different agricultural products. In this app you can simply scroll through the list of products like almonds, potatoes and apples and see their freshwater usage. For example, one needs about 15 thousand liters or water to make a single kilogram of beef. In comparison, it takes 285 liters or water to make one kilogram of potatoes.
+
+Why should I care?
+--------------------
+
+Biggest part of our global freshwater consumption is due to production of food. Three timer more water is used in agriculture than than in all industries. We use nearly 9 times more water for irrigation than for all household purposes including drinking, washing, bathing and gardening.
+
+
+What's the deal with freshwater?
+--------------------
+
+There is a lot of water on our planet but not all of it we can use. Around 97 percent of Earth water is the salt water which is unsuitable for food production. The remaining 3 percent is the freshwater, which is still a lot. Unfortunately most of the freshwater is hard to reach: two thirds of it is frozen and another 30% is in the ground. Only 0.3% of all freshwater is available to us in the form of surface water in streams, rivers, swamps and lakes.
+
+
+Production and consumption of agricultural products play an important role in depleting and polluting the world’s scarce freshwater resources, information on the water footprint of animal products will help us understand how we can sustainable use the scarce freshwater resources.
 
 
 How water footprint is calculated
@@ -9,9 +23,6 @@ How water footprint is calculated
 * The freshwater is taken from three sources: rainwater, surface and groundwater.
 
 * The water footprints of crops and animal product vary across countries and regions as well. The app shows global average water footprint.
-
-*
-
 
 
 Attribution
