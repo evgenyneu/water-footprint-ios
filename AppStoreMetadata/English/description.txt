@@ -1,0 +1,30 @@
+Water footprint app lets you find out how many liters of freshwater is needed to produce one kilogram of different agricultural products. The app will let you scroll through the products like almonds, potatoes and cotton fabric and see their freshwater usage. For example, one needs about 15 thousand liters or water to make a single kilogram of beef. In comparison, it takes 285 liters or water to make one kilo of potatoes.
+
+
+How water footprint is calculated
+---------------------------------
+
+* The water footprint of a product is the sum of the water footprints of all steps taken to produce it. For example, the water footprint of an animal product consists of different components: the indirect water footprint of the feed and the direct water footprint related to the drinking water and service water consumed.
+
+* The freshwater is taken from three sources: rainwater, surface and groundwater.
+
+* The water footprints of crops and animal product vary across countries and regions as well. The app shows global average water footprint.
+
+*
+
+
+
+Attribution
+-----------
+
+Water footprint app uses data from the following publications that are released under Creative Commons Attribution Noncommercial License.
+
+1) Mekonnen, M.M. and Hoekstra, A.Y. (2011) The green, blue and grey water footprint of crops and derived crop products, Hydrology and Earth System Sciences, 15, 1577-1600.
+
+2) Mekonnen, M.M. and Hoekstra, A.Y. (2012) A global assessment of the water footprint of farm animal products, Ecosystems, 15(3): 401–415.
+
+
+License
+-----------
+
+Water footprint app is distributed under the terms of the Creative Commons Attribution Noncommercial License which permits any noncommercial use, distribution, and reproduction in any medium, provided the original authors and source of the app and its data are credited.
