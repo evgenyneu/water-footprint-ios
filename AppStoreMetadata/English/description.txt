@@ -1,4 +1,4 @@
-Water footprint shows how many liters of freshwater is needed to produce one kilogram of various agricultural products. For example, one needs about 15 thousand liters or water to make a single kilogram of beef. In comparison, it takes 285 liters or water to make a kilo of potatoes.
+This app shows how many liters of freshwater is needed to produce one kilogram of various agricultural products. For example, one needs about 15 thousand liters or water to make a single kilogram of beef. In comparison, it takes 285 liters or water to make a kilo of potatoes.
 
 Why should I care?
 --------------------
@@ -8,7 +8,7 @@ Agriculture is responsible for the biggest part of our global freshwater consump
 Freshwater used in agriculture comes mainly from three resources: rainwater, surface and groundwater. Those resources are unequally distributed. Some regions of our planet have enough freshwater while other regions experience significant shortages. The world population is growing while consumption of agricultural products is increasing. It is becoming important for us know the water footprint of agricultural products. This information will help us regulate  water consumption and sustain our scarce freshwater resources.
 
 
-How water footprint is calculated
+How water footprint is calculated?
 ---------------------------------
 
 The water footprint of a product is the sum of the water footprints of all steps taken to produce it. For example, the water footprint of an animal product consists of different components: the indirect water footprint of the feed and the direct water footprint related to the drinking water and service water consumed. The water footprints of crops and animal products vary across countries and regions. The water footprint shown in this app is the global average.
@@ -17,7 +17,7 @@ The water footprint of a product is the sum of the water footprints of all steps
 Attribution
 -----------
 
-Water footprint app uses data from the following publications. The data is released under Creative Commons Attribution Noncommercial License.
+The data used in this app is released under Creative Commons Attribution Noncommercial License and is taken from the following publications.
 
 1) Mekonnen, M.M. and Hoekstra, A.Y. (2011) The green, blue and grey water footprint of crops and derived crop products, Hydrology and Earth System Sciences, 15, 1577-1600.
 
