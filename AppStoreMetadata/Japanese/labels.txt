@@ -1,0 +1,2 @@
+Search: 検索
+Units: リットル/キログラム (Litre/kg as better)
