@@ -1,0 +1,12 @@
+
+/* Class = "UILabel"; text = "Barley, rolled or flaked grains"; ObjectID = "8hp-cP-c5B"; */
+"8hp-cP-c5B.text" = "Barley, rolled or flaked grains";
+
+/* Class = "UILabel"; text = "1,977"; ObjectID = "LNv-eQ-WGj"; */
+"LNv-eQ-WGj.text" = "1,977";
+
+/* Class = "UISearchBar"; placeholder = "Search"; ObjectID = "gHk-bO-9aW"; */
+"gHk-bO-9aW.placeholder" = "検索";
+
+/* Class = "UILabel"; text = "Litre / kg"; ObjectID = "pDf-Hz-tFc"; */
+"pDf-Hz-tFc.text" = "Litre/kg";

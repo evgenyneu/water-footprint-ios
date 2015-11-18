@@ -107,6 +107,7 @@
 		7E98DEDF1BFC14E600E7ABA4 /* ChineseListViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChineseListViewControllerTests.swift; sourceTree = "<group>"; };
 		7E98DEE11BFC158700E7ABA4 /* JapaneseListViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JapaneseListViewControllerTests.swift; sourceTree = "<group>"; };
 		7E98DEE51BFC2C7500E7ABA4 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		7E98DEE61BFC43C800E7ABA4 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -481,6 +482,7 @@
 			children = (
 				7E0B390D1BF1473F00184C23 /* Base */,
 				7E98DEE51BFC2C7500E7ABA4 /* zh-Hans */,
+				7E98DEE61BFC43C800E7ABA4 /* ja */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
