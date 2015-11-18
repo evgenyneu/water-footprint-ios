@@ -2,6 +2,7 @@ import XCTest
 @testable import WaterFootprint
 
 class ChineseParserTests: XCTestCase {
+  let languageCode = "zh"
   
   override func tearDown() {
     super.tearDown()
@@ -9,7 +10,7 @@ class ChineseParserTests: XCTestCase {
   }
   
   func testReadAndParse() {
-    let result = DataParser.readAndParse("zh")
+    let result = DataParser.readAndParse(languageCode)
     
     XCTAssertEqual(234, result.count)
     
@@ -27,6 +28,15 @@ class ChineseParserTests: XCTestCase {
     XCTAssertEqual("棕榈油", last.name)
     XCTAssertEqual("", last.synonyms)
     XCTAssertEqual(4971, last.waterLitres)
+  }
+  
+  func testCheckTextTrimmed() {
+    let result = DataParser.readAndParse(languageCode)
+    
+    for model in result {
+      XCTAssertEqual(model.name, WaterString.trim(model.name))
+      XCTAssertEqual(model.synonyms, WaterString.trim(model.synonyms))
+    }
   }
 
 }

@@ -23,4 +23,8 @@ public struct WaterString {
     
     return trimmed.isEmpty
   }
+  
+  public static func trim(text: String) -> String {
+    return text.stringByTrimmingCharactersInSet(NSCharacterSet.whitespaceAndNewlineCharacterSet())
+  }
 }
