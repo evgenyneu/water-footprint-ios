@@ -53,6 +53,6 @@ class ChineseListViewControllerTests: XCTestCase {
     let tableViewCell = tableView.dataSource?.tableView(tableView, cellForRowAtIndexPath: indexPath)
       as? TableViewCell
     
-    XCTAssertEqual("甘蓝 ", tableViewCell?.productLabel.text)
+    XCTAssertEqual("甘蓝", tableViewCell?.productLabel.text)
   }
 }
