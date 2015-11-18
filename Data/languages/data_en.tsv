@@ -18,8 +18,9 @@ Barley, rolled or flaked grains		1977
 Beans, dry		5053
 Beans, green		561
 Beef	Cow meat, steak	15415
-Beer made from malt		298
+Beer		298
 Blueberries		845
+Bread (wheat)		1608
 Broad beans, dry	Horse beans	2018
 Broccoli		285
 Brussels sprouts		285
@@ -32,6 +33,7 @@ Carobs		5594
 Carrots		195
 Cashew apple		3793
 Cashew nuts		14218
+Cassava flour		1878
 Castor oil		24740
 Castor oil seeds		9896
 Cauliflowers		285
@@ -44,16 +46,16 @@ Chillies and peppers, dry		7365
 Chillies and peppers, green		379
 Chocolate		17196
 Cinnamon	Canella	15526
-Clement		748
+Clementine		748
 Cloves		61205
 Cocoa beans		19928
 Cocoa butter, fat and oil		33938
 Cocoa paste		24238
 Cocoa powder		15636
-Coconut		1256
 Coconut fibre	Coir	2449
 Coconut oil	Copra	4490
 Coconuts		2687
+Coconuts, husked		1256
 Coffee, green		15897
 Coffee, roasted		18925
 Copra		2093
@@ -76,7 +78,6 @@ Eggplants	Aubergines	362
 Fennel		8280
 Figs		3350
 Flax fibre		3783
-Flour of cassava		1878
 Fructose		1782
 Garlic		589
 Garlic powder		2265
@@ -85,12 +86,10 @@ Ginger		1657
 Goat meat	Chevon, cabrito, capretto	5521
 Gooseberries		526
 Gourds		336
-Grape wines	Sparkling	869
 Grapefruit		506
 Grapefruit juice		675
 Grapes		608
 Grapes, dried		2433
-Green and black tea		8856
 Groundnut oil		7529
 Groundnuts in shell		2782
 Groundnuts shelled		3974
@@ -106,9 +105,10 @@ Kiwi fruit		514
 Kola nuts		23391
 Lamb	Sheep meat, hogget, mutton	10412
 Leather from beef cattle		17093
-Lemons and limes		642
+Lemons		642
 Lentils		5874
 Lettuce		237
+Limes		642
 Linseed		5168
 Linseed oil		9415
 Maize	Corn	1222
@@ -153,7 +153,6 @@ Peaches		910
 Pears		922
 Peas, dry		1979
 Peas, green		595
-Peeled tomatoes		267
 Pepper		7611
 Peppermint		288
 Pigeon peas		5494
@@ -173,11 +172,8 @@ Ramie		4507
 Rape oil		4301
 Rapeseed		2271
 Raspberries		413
-Raw sugar, beet		865
-Raw sugar, cane		1666
-Refined sugar		1782
+Rice		2230
 Rice flour		2628
-Rice groats and meal		2230
 Rice, broken		2497
 Rice, brown	Husked	2172
 Rice, paddy		1673
@@ -205,6 +201,9 @@ Strawberries		347
 String beans		547
 Sugar beet		132
 Sugar cane		210
+Sugar, raw (beet)		865
+Sugar, raw (cane)		1666
+Sugar, refined		1782
 Sunflower seed oil		6792
 Sunflower seeds		3366
 Sweet potatoes		383
@@ -212,6 +211,7 @@ Tangerines		748
 Tapioca of cassava		2818
 Tapioca of potatoes		1436
 Taro	Coco yam	606
+Tea, green and black		8856
 Tobacco		2925
 Tomato juice		267
 Tomato juice, concentrated		1069
@@ -220,15 +220,16 @@ Tomato paste		855
 Tomato puree		713
 Tomato, dried		4276
 Tomatoes		214
+Tomatoes, peeled		267
 Turnips		195
 Vanilla beans		126505
 Walnuts, shelled or peeled		9280
 Walnuts, with shell		4918
 Watermelons		235
 Wheat		1827
-Wheat bread		1608
 Wheat flour		1849
 Wheat gluten		4189
 Wheat pellets		2036
-Wheat, starch		1436
+Wheat starch		1436
+Wine (grape)	Sparkling	869
 Yams		343
