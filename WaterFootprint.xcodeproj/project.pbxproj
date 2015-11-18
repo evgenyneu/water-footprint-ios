@@ -41,6 +41,8 @@
 		7E43D4A41BF5AE7F00688682 /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E43D4A31BF5AE7F00688682 /* ProductModel.swift */; };
 		7E43D4A81BF5B5D700688682 /* TickTock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E43D4A71BF5B5D700688682 /* TickTock.swift */; };
 		7E43D4A91BF5B5EC00688682 /* TickTock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E43D4A71BF5B5D700688682 /* TickTock.swift */; };
+		7E98DEAC1BFB0E2000E7ABA4 /* ViewControllerShowDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E98DEAB1BFB0E2000E7ABA4 /* ViewControllerShowDataTests.swift */; };
+		7E98DEAE1BFB0F0200E7ABA4 /* ViewControllerSearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E98DEAD1BFB0F0200E7ABA4 /* ViewControllerSearchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +93,8 @@
 		7E43D4A11BF5AE5F00688682 /* DataParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataParser.swift; sourceTree = "<group>"; };
 		7E43D4A31BF5AE7F00688682 /* ProductModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
 		7E43D4A71BF5B5D700688682 /* TickTock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TickTock.swift; sourceTree = "<group>"; };
+		7E98DEAB1BFB0E2000E7ABA4 /* ViewControllerShowDataTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerShowDataTests.swift; sourceTree = "<group>"; };
+		7E98DEAD1BFB0F0200E7ABA4 /* ViewControllerSearchTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerSearchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -212,6 +216,8 @@
 				7E1EC9A91BF6A409005F6E58 /* TableView */,
 				7E1EC9AF1BF6A628005F6E58 /* TestHelpers */,
 				7E1EC9BF1BF6D0E5005F6E58 /* ViewControllerTests.swift */,
+				7E98DEAB1BFB0E2000E7ABA4 /* ViewControllerShowDataTests.swift */,
+				7E98DEAD1BFB0F0200E7ABA4 /* ViewControllerSearchTests.swift */,
 				7E3655001BF5A22B00C09098 /* Info.plist */,
 			);
 			path = WaterFootprintTests;
@@ -382,9 +388,11 @@
 			files = (
 				7E1EC9AB1BF6A415005F6E58 /* TableViewDataSourceTests.swift in Sources */,
 				7E012EBA1BF8448E00F14209 /* DataSearch.swift in Sources */,
+				7E98DEAC1BFB0E2000E7ABA4 /* ViewControllerShowDataTests.swift in Sources */,
 				7E1EC9A81BF6A365005F6E58 /* DataReaderTests.swift in Sources */,
 				7E1EC9BE1BF6CE30005F6E58 /* TableViewObjectTests.swift in Sources */,
 				7E1EC9C01BF6D0E5005F6E58 /* ViewControllerTests.swift in Sources */,
+				7E98DEAE1BFB0F0200E7ABA4 /* ViewControllerSearchTests.swift in Sources */,
 				7E1EC9B41BF6A7F1005F6E58 /* TableViewCellTests.swift in Sources */,
 				7E1EC9A71BF6A365005F6E58 /* DataParserTests.swift in Sources */,
 				7E43D4A91BF5B5EC00688682 /* TickTock.swift in Sources */,
