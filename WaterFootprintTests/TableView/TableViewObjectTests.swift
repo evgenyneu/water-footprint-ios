@@ -4,7 +4,7 @@ import XCTest
 
 class TableViewObjectTests: XCTestCase {
   var models = [ProductModel]()
-  var viewController: ViewController!
+  var viewController: ListViewController!
   
   var tableView: UITableView { return viewController.tableViewObject.tableView }
   var obj: TableViewObject { return viewController.tableViewObject }

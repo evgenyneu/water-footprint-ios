@@ -5,7 +5,7 @@ class TableViewDataSourceTests: XCTestCase {
   
   var obj: TableViewDataSource!
   var models = [ProductModel]()
-  var viewController: ViewController!
+  var viewController: ListViewController!
   
   var tableView: UITableView {
     return viewController.tableViewObject.tableView

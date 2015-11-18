@@ -1,6 +1,6 @@
 import UIKit
 
-class ViewController: UIViewController {
+class ListViewController: UIViewController {
   @IBOutlet var tableViewObject: TableViewObject!
   @IBOutlet var searchBarObject: SearchBarObject!
   

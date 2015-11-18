@@ -1,9 +1,9 @@
 import XCTest
 @testable import WaterFootprint
 
-class ViewControllerTests: XCTestCase {
+class ListViewControllerTests: XCTestCase {
   
-  var viewController: ViewController!
+  var viewController: ListViewController!
   
   var tableView: UITableView {
     return viewController.tableViewObject.tableView

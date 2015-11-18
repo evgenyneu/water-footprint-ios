@@ -2,8 +2,8 @@
 import XCTest
 @testable import WaterFootprint
 
-class ViewControllerSearchTests: XCTestCase {
-  var viewController: ViewController!
+class ViewControllerShowDataTests: XCTestCase {
+  var viewController: ListViewController!
   
   var tableView: UITableView {
     return viewController.tableViewObject.tableView
@@ -22,43 +22,42 @@ class ViewControllerSearchTests: XCTestCase {
     DataLanguage._currentLanguageCode = nil
   }
   
-  func testSearchEnglish() {
+  func testShowDataEnglish() {
     DataLanguage._currentLanguageCode = "en"
     viewController.beginAppearanceTransition(true, animated: false)
-
-    viewController.searchBarObject.didSearch?("Meat")
     
     let numberOfRows = tableView.dataSource?.tableView(tableView, numberOfRowsInSection: 0)
-    XCTAssertEqual(5, numberOfRows)
+    XCTAssertEqual(234, numberOfRows)
     
     // Show cell
     // ----------
     
-    let indexPath = NSIndexPath(forRow: 0, inSection: 0)
+    let indexPath = NSIndexPath(forRow: 145, inSection: 0)
     
     let tableViewCell = tableView.dataSource?.tableView(tableView, cellForRowAtIndexPath: indexPath)
       as? TableViewCell
     
-    XCTAssertEqual("Beef", tableViewCell?.productLabel.text)
+    XCTAssertEqual("Orange juice", tableViewCell?.productLabel.text)
+    XCTAssertEqual("1,018", tableViewCell?.waterLitresLabel.text)
   }
   
-  func testSearchChinese() {
-    DataLanguage._currentLanguageCode = "en"
+  func testShowDataChinese() {
+    DataLanguage._currentLanguageCode = "zh"
     viewController.beginAppearanceTransition(true, animated: false)
     
-    viewController.searchBarObject.didSearch?("Meat")
-    
     let numberOfRows = tableView.dataSource?.tableView(tableView, numberOfRowsInSection: 0)
-    XCTAssertEqual(5, numberOfRows)
+    XCTAssertEqual(234, numberOfRows)
     
     // Show cell
     // ----------
     
-    let indexPath = NSIndexPath(forRow: 0, inSection: 0)
+    let indexPath = NSIndexPath(forRow: 145, inSection: 0)
     
     let tableViewCell = tableView.dataSource?.tableView(tableView, cellForRowAtIndexPath: indexPath)
       as? TableViewCell
     
-    XCTAssertEqual("Beef", tableViewCell?.productLabel.text)
+    XCTAssertEqual("荞麦", tableViewCell?.productLabel.text)
+    XCTAssertEqual("3,142", tableViewCell?.waterLitresLabel.text)
   }
+
 }
