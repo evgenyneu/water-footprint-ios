@@ -11,7 +11,6 @@
 		7E012EB11BF8331700F14209 /* WaterFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E012EB01BF8331700F14209 /* WaterFont.swift */; };
 		7E012EB31BF83A9800F14209 /* TableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E012EB21BF83A9800F14209 /* TableViewDelegate.swift */; };
 		7E012EB61BF83C9C00F14209 /* SearchBarObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E012EB51BF83C9C00F14209 /* SearchBarObject.swift */; };
-		7E012EB81BF83FD700F14209 /* data_zh.tsv in Resources */ = {isa = PBXBuildFile; fileRef = 7E012EB71BF83FD700F14209 /* data_zh.tsv */; };
 		7E012EBA1BF8448E00F14209 /* DataSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E012EB91BF8448E00F14209 /* DataSearch.swift */; };
 		7E012EBC1BF844BC00F14209 /* DataSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E012EBB1BF844BC00F14209 /* DataSearch.swift */; };
 		7E012EBF1BF8458400F14209 /* WaterString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E012EBE1BF8458400F14209 /* WaterString.swift */; };
@@ -35,7 +34,6 @@
 		7E1EC9C01BF6D0E5005F6E58 /* ViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1EC9BF1BF6D0E5005F6E58 /* ViewControllerTests.swift */; };
 		7E1EC9C31BF6DDF7005F6E58 /* UnderKeyboard.swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1EC9C21BF6DDF7005F6E58 /* UnderKeyboard.swift.swift */; };
 		7E36550A1BF5A2FF00C09098 /* DataLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3655091BF5A2FF00C09098 /* DataLanguage.swift */; };
-		7E3A11651BF580160031C3E1 /* data_en.tsv in Resources */ = {isa = PBXBuildFile; fileRef = 7E3A11641BF580160031C3E1 /* data_en.tsv */; };
 		7E43D49D1BF5A96000688682 /* DataReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E43D49C1BF5A96000688682 /* DataReader.swift */; };
 		7E43D4A21BF5AE5F00688682 /* DataParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E43D4A11BF5AE5F00688682 /* DataParser.swift */; };
 		7E43D4A41BF5AE7F00688682 /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E43D4A31BF5AE7F00688682 /* ProductModel.swift */; };
@@ -43,6 +41,12 @@
 		7E43D4A91BF5B5EC00688682 /* TickTock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E43D4A71BF5B5D700688682 /* TickTock.swift */; };
 		7E98DEAC1BFB0E2000E7ABA4 /* ViewControllerShowDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E98DEAB1BFB0E2000E7ABA4 /* ViewControllerShowDataTests.swift */; };
 		7E98DEAE1BFB0F0200E7ABA4 /* ViewControllerSearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E98DEAD1BFB0F0200E7ABA4 /* ViewControllerSearchTests.swift */; };
+		7E98DEB61BFC0E5600E7ABA4 /* ChineseParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E98DEB41BFC0E5600E7ABA4 /* ChineseParserTests.swift */; };
+		7E98DEB71BFC0E5600E7ABA4 /* EnglishParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E98DEB51BFC0E5600E7ABA4 /* EnglishParserTests.swift */; };
+		7E98DEB91BFC0E7E00E7ABA4 /* JapaneseParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E98DEB81BFC0E7E00E7ABA4 /* JapaneseParserTests.swift */; };
+		7E98DEBD1BFC0EB400E7ABA4 /* data_en.tsv in Resources */ = {isa = PBXBuildFile; fileRef = 7E98DEBA1BFC0EB400E7ABA4 /* data_en.tsv */; };
+		7E98DEBE1BFC0EB400E7ABA4 /* data_ja.tsv in Resources */ = {isa = PBXBuildFile; fileRef = 7E98DEBB1BFC0EB400E7ABA4 /* data_ja.tsv */; };
+		7E98DEBF1BFC0EB400E7ABA4 /* data_zh.tsv in Resources */ = {isa = PBXBuildFile; fileRef = 7E98DEBC1BFC0EB400E7ABA4 /* data_zh.tsv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,7 +64,6 @@
 		7E012EB01BF8331700F14209 /* WaterFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaterFont.swift; sourceTree = "<group>"; };
 		7E012EB21BF83A9800F14209 /* TableViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewDelegate.swift; sourceTree = "<group>"; };
 		7E012EB51BF83C9C00F14209 /* SearchBarObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchBarObject.swift; sourceTree = "<group>"; };
-		7E012EB71BF83FD700F14209 /* data_zh.tsv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = data_zh.tsv; path = Data/data_zh.tsv; sourceTree = SOURCE_ROOT; };
 		7E012EB91BF8448E00F14209 /* DataSearch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataSearch.swift; sourceTree = "<group>"; };
 		7E012EBB1BF844BC00F14209 /* DataSearch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataSearch.swift; sourceTree = "<group>"; };
 		7E012EBE1BF8458400F14209 /* WaterString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaterString.swift; sourceTree = "<group>"; };
@@ -88,13 +91,18 @@
 		7E3654FC1BF5A22B00C09098 /* WaterFootprintTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaterFootprintTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E3655001BF5A22B00C09098 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E3655091BF5A2FF00C09098 /* DataLanguage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataLanguage.swift; sourceTree = "<group>"; };
-		7E3A11641BF580160031C3E1 /* data_en.tsv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = data_en.tsv; path = Data/data_en.tsv; sourceTree = SOURCE_ROOT; };
 		7E43D49C1BF5A96000688682 /* DataReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataReader.swift; sourceTree = "<group>"; };
 		7E43D4A11BF5AE5F00688682 /* DataParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataParser.swift; sourceTree = "<group>"; };
 		7E43D4A31BF5AE7F00688682 /* ProductModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
 		7E43D4A71BF5B5D700688682 /* TickTock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TickTock.swift; sourceTree = "<group>"; };
 		7E98DEAB1BFB0E2000E7ABA4 /* ViewControllerShowDataTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerShowDataTests.swift; sourceTree = "<group>"; };
 		7E98DEAD1BFB0F0200E7ABA4 /* ViewControllerSearchTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerSearchTests.swift; sourceTree = "<group>"; };
+		7E98DEB41BFC0E5600E7ABA4 /* ChineseParserTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChineseParserTests.swift; sourceTree = "<group>"; };
+		7E98DEB51BFC0E5600E7ABA4 /* EnglishParserTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnglishParserTests.swift; sourceTree = "<group>"; };
+		7E98DEB81BFC0E7E00E7ABA4 /* JapaneseParserTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JapaneseParserTests.swift; sourceTree = "<group>"; };
+		7E98DEBA1BFC0EB400E7ABA4 /* data_en.tsv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = data_en.tsv; path = Data/languages/data_en.tsv; sourceTree = SOURCE_ROOT; };
+		7E98DEBB1BFC0EB400E7ABA4 /* data_ja.tsv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = data_ja.tsv; path = Data/languages/data_ja.tsv; sourceTree = SOURCE_ROOT; };
+		7E98DEBC1BFC0EB400E7ABA4 /* data_zh.tsv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = data_zh.tsv; path = Data/languages/data_zh.tsv; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,6 +183,7 @@
 		7E1EC9A21BF6A34F005F6E58 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				7E98DEB31BFC0E2800E7ABA4 /* languages */,
 				7E1EC9A31BF6A365005F6E58 /* DataLanguageTests.swift */,
 				7E1EC9A41BF6A365005F6E58 /* DataParserTests.swift */,
 				7E1EC9A51BF6A365005F6E58 /* DataReaderTests.swift */,
@@ -239,8 +248,9 @@
 		7E3A11631BF580000031C3E1 /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				7E3A11641BF580160031C3E1 /* data_en.tsv */,
-				7E012EB71BF83FD700F14209 /* data_zh.tsv */,
+				7E98DEBA1BFC0EB400E7ABA4 /* data_en.tsv */,
+				7E98DEBB1BFC0EB400E7ABA4 /* data_ja.tsv */,
+				7E98DEBC1BFC0EB400E7ABA4 /* data_zh.tsv */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -254,6 +264,16 @@
 				7E012EBE1BF8458400F14209 /* WaterString.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		7E98DEB31BFC0E2800E7ABA4 /* languages */ = {
+			isa = PBXGroup;
+			children = (
+				7E98DEB41BFC0E5600E7ABA4 /* ChineseParserTests.swift */,
+				7E98DEB51BFC0E5600E7ABA4 /* EnglishParserTests.swift */,
+				7E98DEB81BFC0E7E00E7ABA4 /* JapaneseParserTests.swift */,
+			);
+			path = languages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -340,9 +360,10 @@
 			files = (
 				7E0B39131BF1473F00184C23 /* LaunchScreen.storyboard in Resources */,
 				7E0B39101BF1473F00184C23 /* Assets.xcassets in Resources */,
-				7E3A11651BF580160031C3E1 /* data_en.tsv in Resources */,
-				7E012EB81BF83FD700F14209 /* data_zh.tsv in Resources */,
+				7E98DEBE1BFC0EB400E7ABA4 /* data_ja.tsv in Resources */,
+				7E98DEBD1BFC0EB400E7ABA4 /* data_en.tsv in Resources */,
 				7E0B390E1BF1473F00184C23 /* Main.storyboard in Resources */,
+				7E98DEBF1BFC0EB400E7ABA4 /* data_zh.tsv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,12 +411,15 @@
 				7E012EBA1BF8448E00F14209 /* DataSearch.swift in Sources */,
 				7E98DEAC1BFB0E2000E7ABA4 /* ViewControllerShowDataTests.swift in Sources */,
 				7E1EC9A81BF6A365005F6E58 /* DataReaderTests.swift in Sources */,
+				7E98DEB61BFC0E5600E7ABA4 /* ChineseParserTests.swift in Sources */,
 				7E1EC9BE1BF6CE30005F6E58 /* TableViewObjectTests.swift in Sources */,
 				7E1EC9C01BF6D0E5005F6E58 /* ViewControllerTests.swift in Sources */,
 				7E98DEAE1BFB0F0200E7ABA4 /* ViewControllerSearchTests.swift in Sources */,
 				7E1EC9B41BF6A7F1005F6E58 /* TableViewCellTests.swift in Sources */,
+				7E98DEB91BFC0E7E00E7ABA4 /* JapaneseParserTests.swift in Sources */,
 				7E1EC9A71BF6A365005F6E58 /* DataParserTests.swift in Sources */,
 				7E43D4A91BF5B5EC00688682 /* TickTock.swift in Sources */,
+				7E98DEB71BFC0E5600E7ABA4 /* EnglishParserTests.swift in Sources */,
 				7E1EC9A61BF6A365005F6E58 /* DataLanguageTests.swift in Sources */,
 				7E1EC9B21BF6A64D005F6E58 /* TestHelpers.swift in Sources */,
 			);
