@@ -1,8 +1,7 @@
-
 import XCTest
 @testable import WaterFootprint
 
-class ViewControllerShowDataTests: XCTestCase {
+class EnglishListViewControllerTests: XCTestCase {
   var viewController: ListViewController!
   
   var tableView: UITableView {
@@ -13,6 +12,8 @@ class ViewControllerShowDataTests: XCTestCase {
     super.setUp()
     
     viewController = TestHelpers.initViewController()
+    DataLanguage._currentLanguageCode = "en"
+    viewController.beginAppearanceTransition(true, animated: false)
   }
   
   override func tearDown() {
@@ -22,10 +23,7 @@ class ViewControllerShowDataTests: XCTestCase {
     DataLanguage._currentLanguageCode = nil
   }
   
-  func testShowDataEnglish() {
-    DataLanguage._currentLanguageCode = "en"
-    viewController.beginAppearanceTransition(true, animated: false)
-    
+  func testShowData() {
     let numberOfRows = tableView.dataSource?.tableView(tableView, numberOfRowsInSection: 0)
     XCTAssertEqual(234, numberOfRows)
     
@@ -41,23 +39,20 @@ class ViewControllerShowDataTests: XCTestCase {
     XCTAssertEqual("1,018", tableViewCell?.waterLitresLabel.text)
   }
   
-  func testShowDataChinese() {
-    DataLanguage._currentLanguageCode = "zh"
-    viewController.beginAppearanceTransition(true, animated: false)
+  func testSearch() {
+    viewController.searchBarObject.didSearch?("Meat")
     
     let numberOfRows = tableView.dataSource?.tableView(tableView, numberOfRowsInSection: 0)
-    XCTAssertEqual(234, numberOfRows)
+    XCTAssertEqual(5, numberOfRows)
     
     // Show cell
     // ----------
     
-    let indexPath = NSIndexPath(forRow: 145, inSection: 0)
+    let indexPath = NSIndexPath(forRow: 0, inSection: 0)
     
     let tableViewCell = tableView.dataSource?.tableView(tableView, cellForRowAtIndexPath: indexPath)
       as? TableViewCell
     
-    XCTAssertEqual("荞麦", tableViewCell?.productLabel.text)
-    XCTAssertEqual("3,142", tableViewCell?.waterLitresLabel.text)
+    XCTAssertEqual("Beef", tableViewCell?.productLabel.text)
   }
-
 }
