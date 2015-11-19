@@ -34,7 +34,7 @@ class DataParserTests: XCTestCase {
     DataLanguage._currentLanguageCode = "en"
     let result = DataParser.readAndParseForCurrentLanguage()
     
-    XCTAssertEqual(235, result.count)
+    XCTAssertEqual(234, result.count)
     XCTAssertEqual("Abaca fibre", result.first?.name)
   }
   
@@ -45,7 +45,7 @@ class DataParserTests: XCTestCase {
     DataLanguage._currentLanguageCode = "zh"
     result = DataParser.readAndParseForCurrentLanguageCached()
     
-    XCTAssertEqual(235, result.count)
+    XCTAssertEqual(234, result.count)
     XCTAssertEqual("Abaca fibre", result.first?.name)
   }
 }

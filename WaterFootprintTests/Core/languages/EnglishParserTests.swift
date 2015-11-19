@@ -12,7 +12,7 @@ class EnglishParserTests: XCTestCase {
   func testReadAndParse() {
     let result = DataParser.readAndParse(languageCode)
     
-    XCTAssertEqual(235, result.count)
+    XCTAssertEqual(234, result.count)
     
     let first = result.first!
     XCTAssertEqual("Abaca fibre", first.name)

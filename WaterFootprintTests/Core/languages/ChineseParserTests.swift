@@ -12,7 +12,7 @@ class ChineseParserTests: XCTestCase {
   func testReadAndParse() {
     let result = DataParser.readAndParse(languageCode)
     
-    XCTAssertEqual(234, result.count)
+    XCTAssertEqual(233, result.count)
     
     let first = result.first!
     XCTAssertEqual("八角", first.name)

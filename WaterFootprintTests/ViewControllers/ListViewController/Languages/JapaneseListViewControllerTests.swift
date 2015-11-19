@@ -25,7 +25,7 @@ class JapaneseListViewControllerTests: XCTestCase {
   
   func testShowData() {
     let numberOfRows = tableView.dataSource?.tableView(tableView, numberOfRowsInSection: 0)
-    XCTAssertEqual(234, numberOfRows)
+    XCTAssertEqual(233, numberOfRows)
     
     // Show cell
     // ----------

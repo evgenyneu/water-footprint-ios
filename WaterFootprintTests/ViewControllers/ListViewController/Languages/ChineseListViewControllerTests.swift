@@ -25,7 +25,7 @@ class ChineseListViewControllerTests: XCTestCase {
   
   func testShowData() {
     let numberOfRows = tableView.dataSource?.tableView(tableView, numberOfRowsInSection: 0)
-    XCTAssertEqual(234, numberOfRows)
+    XCTAssertEqual(233, numberOfRows)
     
     // Show cell
     // ----------
@@ -35,8 +35,8 @@ class ChineseListViewControllerTests: XCTestCase {
     let tableViewCell = tableView.dataSource?.tableView(tableView, cellForRowAtIndexPath: indexPath)
       as? TableViewCell
     
-    XCTAssertEqual("荞麦", tableViewCell?.productLabel.text)
-    XCTAssertEqual("3,142", tableViewCell?.waterLitresLabel.text)
+    XCTAssertEqual("巧克力", tableViewCell?.productLabel.text)
+    XCTAssertEqual("17,196", tableViewCell?.waterLitresLabel.text)
   }
   
   func testSearch() {

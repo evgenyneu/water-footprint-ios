@@ -30,7 +30,7 @@ class ListViewControllerTests: XCTestCase {
     viewController.searchBarObject.didSearch?("")
     
     let numberOfRows = tableView.dataSource?.tableView(tableView, numberOfRowsInSection: 0)
-    XCTAssertEqual(235, numberOfRows)
+    XCTAssertEqual(234, numberOfRows)
     
     // Show cell
     // ----------

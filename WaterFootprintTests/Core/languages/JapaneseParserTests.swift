@@ -12,7 +12,7 @@ class JapaneseParserTests: XCTestCase {
   func testReadAndParse() {
     let result = DataParser.readAndParse(languageCode)
     
-    XCTAssertEqual(234, result.count)
+    XCTAssertEqual(233, result.count)
     
     let first = result.first!
     XCTAssertEqual("アーティチョーク", first.name)
