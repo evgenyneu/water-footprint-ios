@@ -40,7 +40,7 @@ Cauliflowers		285
 Cheese		5060
 Cherries		1604
 Chestnuts		2750
-Chick peas		4177
+Chick peas	Chickpeas	4177
 Chicken meat		4325
 Chillies and peppers, dry		7365
 Chillies and peppers, green		379
@@ -54,8 +54,8 @@ Cocoa paste		24238
 Cocoa powder		15636
 Coconut fibre	Coir	2449
 Coconut oil	Copra	4490
-Coconuts		2687
-Coconuts, husked		1256
+Coconuts, dehusked		2687
+Coconuts, with husk		1256
 Coffee, green		15897
 Coffee, roasted		18925
 Copra		2093
@@ -153,7 +153,6 @@ Peaches		910
 Pears		922
 Peas, dry		1979
 Peas, green		595
-Pepper		7611
 Peppermint		288
 Pigeon peas		5494
 Pineapple juice		1273
