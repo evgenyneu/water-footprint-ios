@@ -14,6 +14,7 @@ class DataLanguageTests: XCTestCase {
     XCTAssertEqual("zh", DataLanguage.supportedLanguage(["zh_ZH", "en"]))
     XCTAssertEqual("ja", DataLanguage.supportedLanguage(["ja", "zh"]))
     XCTAssertEqual("zh", DataLanguage.supportedLanguage(["it", "zh"]))
+    XCTAssertEqual("ru", DataLanguage.supportedLanguage(["it", "ru"]))
     XCTAssertEqual("en", DataLanguage.supportedLanguage(["it"])) // unsupported language
     XCTAssertEqual("en", DataLanguage.supportedLanguage([])) // unsupported language
   }

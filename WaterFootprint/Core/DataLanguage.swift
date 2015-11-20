@@ -3,7 +3,7 @@ import UIKit
 struct DataLanguage {
   
   static let defaultLanguageCode = "en"
-  static let supportedLanguageCodes = [defaultLanguageCode, "zh", "ja"]
+  static let supportedLanguageCodes = [defaultLanguageCode, "zh", "ja", "ru"]
   
   /*
 

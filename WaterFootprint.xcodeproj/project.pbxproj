@@ -50,6 +50,8 @@
 		7E98DEE21BFC158700E7ABA4 /* JapaneseListViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E98DEE11BFC158700E7ABA4 /* JapaneseListViewControllerTests.swift */; };
 		7E98DEE31BFC165200E7ABA4 /* WaterString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E012EBE1BF8458400F14209 /* WaterString.swift */; };
 		7E98DEE91BFC48E100E7ABA4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7E98DEEB1BFC48E100E7ABA4 /* InfoPlist.strings */; };
+		7E98DEEF1BFEC67800E7ABA4 /* RussianLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E98DEEE1BFEC67800E7ABA4 /* RussianLanguage.swift */; };
+		7E98DEF11BFEC6AA00E7ABA4 /* data_ru.tsv in Resources */ = {isa = PBXBuildFile; fileRef = 7E98DEF01BFEC6AA00E7ABA4 /* data_ru.tsv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -112,6 +114,8 @@
 		7E98DEEA1BFC48E100E7ABA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7E98DEEC1BFC48F000E7ABA4 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		7E98DEED1BFC491600E7ABA4 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7E98DEEE1BFEC67800E7ABA4 /* RussianLanguage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RussianLanguage.swift; sourceTree = "<group>"; };
+		7E98DEF01BFEC6AA00E7ABA4 /* data_ru.tsv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = data_ru.tsv; path = Data/languages/data_ru.tsv; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -258,6 +262,7 @@
 			children = (
 				7E98DEBA1BFC0EB400E7ABA4 /* data_en.tsv */,
 				7E98DEBB1BFC0EB400E7ABA4 /* data_ja.tsv */,
+				7E98DEF01BFEC6AA00E7ABA4 /* data_ru.tsv */,
 				7E98DEBC1BFC0EB400E7ABA4 /* data_zh.tsv */,
 			);
 			path = Data;
@@ -280,6 +285,7 @@
 				7E98DEB41BFC0E5600E7ABA4 /* ChineseParserTests.swift */,
 				7E98DEB51BFC0E5600E7ABA4 /* EnglishParserTests.swift */,
 				7E98DEB81BFC0E7E00E7ABA4 /* JapaneseParserTests.swift */,
+				7E98DEEE1BFEC67800E7ABA4 /* RussianLanguage.swift */,
 			);
 			name = Languages;
 			path = languages;
@@ -410,6 +416,7 @@
 				7E98DEBE1BFC0EB400E7ABA4 /* data_ja.tsv in Resources */,
 				7E98DEBD1BFC0EB400E7ABA4 /* data_en.tsv in Resources */,
 				7E0B390E1BF1473F00184C23 /* Main.storyboard in Resources */,
+				7E98DEF11BFEC6AA00E7ABA4 /* data_ru.tsv in Resources */,
 				7E98DEBF1BFC0EB400E7ABA4 /* data_zh.tsv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -467,6 +474,7 @@
 				7E1EC9A71BF6A365005F6E58 /* DataParserTests.swift in Sources */,
 				7E98DEE01BFC14E600E7ABA4 /* ChineseListViewControllerTests.swift in Sources */,
 				7E98DED11BFC114400E7ABA4 /* ListViewControllerTests.swift in Sources */,
+				7E98DEEF1BFEC67800E7ABA4 /* RussianLanguage.swift in Sources */,
 				7E43D4A91BF5B5EC00688682 /* TickTock.swift in Sources */,
 				7E98DEB71BFC0E5600E7ABA4 /* EnglishParserTests.swift in Sources */,
 				7E1EC9A61BF6A365005F6E58 /* DataLanguageTests.swift in Sources */,
