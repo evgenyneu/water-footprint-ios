@@ -52,6 +52,7 @@
 		7E98DEE91BFC48E100E7ABA4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7E98DEEB1BFC48E100E7ABA4 /* InfoPlist.strings */; };
 		7E98DEEF1BFEC67800E7ABA4 /* RussianLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E98DEEE1BFEC67800E7ABA4 /* RussianLanguage.swift */; };
 		7E98DEF11BFEC6AA00E7ABA4 /* data_ru.tsv in Resources */ = {isa = PBXBuildFile; fileRef = 7E98DEF01BFEC6AA00E7ABA4 /* data_ru.tsv */; };
+		7E98DEF31BFEC7FB00E7ABA4 /* RussianListViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E98DEF21BFEC7FA00E7ABA4 /* RussianListViewControllerTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -116,6 +117,7 @@
 		7E98DEED1BFC491600E7ABA4 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7E98DEEE1BFEC67800E7ABA4 /* RussianLanguage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RussianLanguage.swift; sourceTree = "<group>"; };
 		7E98DEF01BFEC6AA00E7ABA4 /* data_ru.tsv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = data_ru.tsv; path = Data/languages/data_ru.tsv; sourceTree = SOURCE_ROOT; };
+		7E98DEF21BFEC7FA00E7ABA4 /* RussianListViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RussianListViewControllerTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -322,6 +324,7 @@
 				7E98DEDF1BFC14E600E7ABA4 /* ChineseListViewControllerTests.swift */,
 				7E98DEDD1BFC14AE00E7ABA4 /* EnglishListViewControllerTests.swift */,
 				7E98DEE11BFC158700E7ABA4 /* JapaneseListViewControllerTests.swift */,
+				7E98DEF21BFEC7FA00E7ABA4 /* RussianListViewControllerTests.swift */,
 			);
 			path = Languages;
 			sourceTree = "<group>";
@@ -478,6 +481,7 @@
 				7E43D4A91BF5B5EC00688682 /* TickTock.swift in Sources */,
 				7E98DEB71BFC0E5600E7ABA4 /* EnglishParserTests.swift in Sources */,
 				7E1EC9A61BF6A365005F6E58 /* DataLanguageTests.swift in Sources */,
+				7E98DEF31BFEC7FB00E7ABA4 /* RussianListViewControllerTests.swift in Sources */,
 				7E1EC9B21BF6A64D005F6E58 /* TestHelpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
