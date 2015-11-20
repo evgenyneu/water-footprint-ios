@@ -118,6 +118,8 @@
 		7E98DEEE1BFEC67800E7ABA4 /* RussianLanguage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RussianLanguage.swift; sourceTree = "<group>"; };
 		7E98DEF01BFEC6AA00E7ABA4 /* data_ru.tsv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = data_ru.tsv; path = Data/languages/data_ru.tsv; sourceTree = SOURCE_ROOT; };
 		7E98DEF21BFEC7FA00E7ABA4 /* RussianListViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RussianListViewControllerTests.swift; sourceTree = "<group>"; };
+		7E98DEF41BFEC8D500E7ABA4 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
+		7E98DEF51BFEC8D500E7ABA4 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -396,6 +398,7 @@
 				Base,
 				"zh-Hans",
 				ja,
+				ru,
 			);
 			mainGroup = 7E0B38FC1BF1473F00184C23;
 			productRefGroup = 7E0B39061BF1473F00184C23 /* Products */;
@@ -503,6 +506,7 @@
 				7E0B390D1BF1473F00184C23 /* Base */,
 				7E98DEE51BFC2C7500E7ABA4 /* zh-Hans */,
 				7E98DEE61BFC43C800E7ABA4 /* ja */,
+				7E98DEF41BFEC8D500E7ABA4 /* ru */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -521,6 +525,7 @@
 				7E98DEEA1BFC48E100E7ABA4 /* Base */,
 				7E98DEEC1BFC48F000E7ABA4 /* zh-Hans */,
 				7E98DEED1BFC491600E7ABA4 /* ja */,
+				7E98DEF51BFEC8D500E7ABA4 /* ru */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
