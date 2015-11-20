@@ -35,8 +35,8 @@ class EnglishListViewControllerTests: XCTestCase {
     let tableViewCell = tableView.dataSource?.tableView(tableView, cellForRowAtIndexPath: indexPath)
       as? TableViewCell
     
-    XCTAssertEqual("Orange juice", tableViewCell?.productLabel.text)
-    XCTAssertEqual("1,018", tableViewCell?.waterLitresLabel.text)
+    XCTAssertEqual("Palm kernel oil", tableViewCell?.productLabel.text)
+    XCTAssertEqual("5,401", tableViewCell?.waterLitresLabel.text)
   }
   
   func testSearch() {

@@ -33,7 +33,11 @@ Carobs		5594
 Carrots		195
 Cashew apple		3793
 Cashew nuts		14218
+Cassava	Manioc	564
 Cassava flour		1878
+Cassava starch	Manioc	2254
+Cassava, dried		1610
+Cassava, tapioca		2818
 Castor oil		24740
 Castor oil seeds		9896
 Cauliflowers		285
@@ -65,14 +69,13 @@ Cotton fabric		9982
 Cotton lint		9113
 Cotton linters		2602
 Cotton seeds		1332
-Cotton-seed oil		3957
-Cow peas, dry		6906
+Cottonseed	Seed cotton	4029
+Cottonseed oil		3957
+Cowpeas, dry		6906
 Cranberries		276
 Cucumbers		353
 Currants		499
 Dates		2277
-Dried cassava		1610
-Dry pasta		1849
 Egg		3265
 Eggplants	Aubergines	362
 Fennel		8280
@@ -89,10 +92,7 @@ Gourds		336
 Grapefruit		506
 Grapefruit juice		675
 Grapes		608
-Grapes, dried		2433
-Groundnut oil		7529
-Groundnuts in shell		2782
-Groundnuts shelled		3974
+Green beans	String	547
 Guavas		1800
 Hazelnuts, shelled or peeled		10515
 Hazelnuts, with shell		5258
@@ -123,8 +123,6 @@ Mandarins		748
 Mangoes		1800
 Mangosteens		1800
 Manila fibre	Abaca	20388
-Manioc	Cassava	564
-Manioc starch	Cassava	2254
 Melon seed		5184
 Milk		1020
 Milk powder		4745
@@ -149,7 +147,11 @@ Palm kernel oil	Babassu	5401
 Palm nuts and kernels		2868
 Palm oil		4971
 Papayas		460
+Pasta, dry		1849
 Peaches		910
+Peanut oil	Groundnuts	7529
+Peanuts in shell	Groundnuts	2782
+Peanuts shelled	Groundnuts	3974
 Pears		922
 Peas, dry		1979
 Peas, green		595
@@ -166,20 +168,21 @@ Potato flakes		1044
 Potato flour and meal		1436
 Potato starch		1512
 Potatoes		287
+Potatoes, tapioca		1436
 Pumpkins		336
+Raisin	Grapes, dried	2433
 Ramie		4507
 Rape oil		4301
 Rapeseed		2271
 Raspberries		413
-Rice		2230
 Rice flour		2628
+Rice groats and meal		2230
 Rice, broken		2497
 Rice, brown	Husked	2172
 Rice, paddy		1673
 Rye		1544
 Rye flour		1930
 Safflower seeds		7221
-Seed cotton		4029
 Sesame oil		21793
 Sesame seed		9371
 Sisal		7041
@@ -188,30 +191,27 @@ Sloes		2180
 Sorghum		3048
 Sour cherries		1411
 Soy milk		3763
-Soya bean flour and meals		2523
-Soya beans		2145
-Soya curd		2523
-Soya paste		572
-Soya sauce		613
-Soybean oil		4190
+Soy sauce	Soya	613
+Soybean flour and meals	Soya	2523
+Soybean oil	Soya	4190
+Soybean paste	Soya	572
+Soybeans	Soya	2145
 Spinach		292
 Squash		336
 Strawberries		347
-String beans		547
 Sugar beet		132
-Sugar cane		210
 Sugar, raw (beet)		865
 Sugar, raw (cane)		1666
 Sugar, refined		1782
+Sugarcane	Sugar cane	210
 Sunflower seed oil		6792
 Sunflower seeds		3366
 Sweet potatoes		383
 Tangerines		748
-Tapioca of cassava		2818
-Tapioca of potatoes		1436
 Taro	Coco yam	606
 Tea, green and black		8856
 Tobacco		2925
+Tofu	Soya, soybean curd	2523
 Tomato juice		267
 Tomato juice, concentrated		1069
 Tomato ketchup		534
@@ -226,9 +226,9 @@ Walnuts, shelled or peeled		9280
 Walnuts, with shell		4918
 Watermelons		235
 Wheat		1827
+Wheat bran	Pellets	2036
 Wheat flour		1849
 Wheat gluten		4189
-Wheat pellets		2036
 Wheat starch		1436
 Wine (grape)	Sparkling	869
 Yams		343
