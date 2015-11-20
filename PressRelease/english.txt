@@ -1,0 +1,19 @@
+Headline (Max 72 chars)
+-----------
+
+Water Footprint for iOS shows freshwater cost of agricultural products.
+
+Summary (max 500 chars)
+-----------
+
+The Water Footprint is a free app that shows the required volume (litres) of freshwater to produce a range of agricultural products (1 kilogram). For example, approximately 15 thousand litres of water is required to produce a single kilogram of beef. In comparison, 285 litres of water is needed to grow a kilo of potatoes.
+
+
+Body
+------
+
+Water Fooprints shows a list of agricultural products with water footprint value for each one. The user can scroll through the list or search for a specific product. The app is localized in four languages: Japanese, Chinese, Russian and English.
+
+Why should we care about water footprint? Agriculture accounts for the largest consumption of global freshwater. Three times more water is used in agriculture than the amount used for all other industries. Furthermore, for irrigation, the amount of water used is several times greater than that for household purposes which includes water for drinking, washing, bathing and gardening.
+
+Freshwater used for agricultural purposes comes from three primary resources: rainwater, surface and groundwater. These resources are unequally distributed. Some regions of our planet hold abundant reserves of freshwater while others experience significant shortages. At the same time, the world population is growing while consumption of agricultural products is increasing. Therefore, it is becoming increasingly important for us to be informed of and to identify the water footprint of agricultural products. This information will help us to regulate water consumption and sustain our scarce freshwater resources.
