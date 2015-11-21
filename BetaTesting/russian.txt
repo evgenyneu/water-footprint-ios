@@ -1,0 +1,47 @@
+Title: A native Russian speaker needed to test an iOS app on the iPhone.
+---------------------
+
+
+Hello friends,
+
+I need to find a person for testing a Russian version of my iOS app. It is a small app with a single screen. My goal is to make sure there are no bugs in the software before releasing it to the public. I estimate the testing job to take up to one hour. When applying just answering the screening questions with "yes" or "no" is enough.
+
+
+Job deadline
+----------------------
+
+The testing needs to be done today, Nov 21st.
+
+
+Job requirements
+----------------------
+
+I am looking for a native Russian native speaker that has:
+
+1. An iPhone with iOS version 8 or 9.
+2. Apple ID (iTunes account).
+3. A Test Flight app installed.
+
+
+What needs to be tested
+----------------------
+
+1. Read the app description to understand what the app is about.
+2. Send me your apple ID for registering as a beta tester for this app.
+3. Install and launch my app form the Test Flight app.
+4. Check if the app shows the list of products.
+5. Check if you can search for a product.
+6. Check if all app text and numbers are localized for Russian audience properly.
+7. Try using the app in different screen orientations: portrait and landscape.
+8. Send me a test report, answering three questions:
+  a. Was it easy to look up water footprints for various products?
+  b. Was it easy to search for a particular product?
+  c. What would you improve in the app?
+
+
+Questions
+---------------------
+
+Are you a native Russian speaker (yes/no)?
+Do you have an iPhone with iOS version 8 or 9 (yes/no)?
+Do you have an Apple ID (iTunes account) (yes/no)?
