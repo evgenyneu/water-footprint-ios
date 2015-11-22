@@ -36,17 +36,10 @@
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Water footprint table header" rowHeight="58" id="T2C-p0-Wop" customClass="TableViewHaaderCell" customModule="WaterFootprint" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="600" height="58"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" layoutMarginsFollowReadableWidth="YES" tableViewCell="T2C-p0-Wop" id="tf3-Wz-HZg">
+                                        <tableViewCellContentView key="contentView" opaque="NO" multipleTouchEnabled="YES" contentMode="center" layoutMarginsFollowReadableWidth="YES" tableViewCell="T2C-p0-Wop" id="tf3-Wz-HZg">
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="57.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="Litre/kg" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pDf-Hz-tFc">
-                                                    <rect key="frame" x="533" y="13" width="58.5" height="31.5"/>
-                                                    <animations/>
-                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
-                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VPm-3V-NKO">
                                                     <rect key="frame" x="0.0" y="56" width="600" height="1"/>
                                                     <animations/>
@@ -55,14 +48,21 @@
                                                         <constraint firstAttribute="height" constant="1" id="sOE-f7-33A"/>
                                                     </constraints>
                                                 </view>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="Litre/kg" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pDf-Hz-tFc">
+                                                    <rect key="frame" x="533" y="0.0" width="58.5" height="57.5"/>
+                                                    <animations/>
+                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
                                             </subviews>
                                             <animations/>
                                             <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <constraints>
-                                                <constraint firstAttribute="bottomMargin" secondItem="pDf-Hz-tFc" secondAttribute="bottom" constant="5" id="5vt-q3-yIt"/>
+                                                <constraint firstAttribute="bottom" secondItem="pDf-Hz-tFc" secondAttribute="bottom" id="5vt-q3-yIt"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="pDf-Hz-tFc" secondAttribute="trailing" id="6X7-hK-cgW"/>
                                                 <constraint firstAttribute="bottom" secondItem="VPm-3V-NKO" secondAttribute="bottom" id="G3f-M3-0vu"/>
-                                                <constraint firstItem="pDf-Hz-tFc" firstAttribute="top" secondItem="tf3-Wz-HZg" secondAttribute="topMargin" constant="5" id="OYF-re-3qc"/>
+                                                <constraint firstItem="pDf-Hz-tFc" firstAttribute="top" secondItem="tf3-Wz-HZg" secondAttribute="top" id="OYF-re-3qc"/>
                                                 <constraint firstAttribute="trailing" secondItem="VPm-3V-NKO" secondAttribute="trailing" id="fA2-kY-xy7"/>
                                                 <constraint firstItem="VPm-3V-NKO" firstAttribute="leading" secondItem="tf3-Wz-HZg" secondAttribute="leading" id="rff-9h-8cR"/>
                                             </constraints>
