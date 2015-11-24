@@ -9,11 +9,13 @@ struct DataSearch {
   }
   
   static func doesMatchSentence(model: ProductModel, sentence: String) -> Bool {
-    let words = sentence.componentsSeparatedByString(" ")
+    let words = sentence.componentsSeparatedByString(" ").filter { $0 != "" }
     
-    return words.contains { word in
+    let matchedWords = words.filter { word in
       doesMatchSingleWord(model, word: word)
     }
+    
+    return words.count == matchedWords.count
   }
   
   static func doesMatchSingleWord(model: ProductModel, word: String) -> Bool {

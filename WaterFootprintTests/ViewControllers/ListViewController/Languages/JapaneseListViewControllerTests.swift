@@ -25,7 +25,7 @@ class JapaneseListViewControllerTests: XCTestCase {
   
   func testShowData() {
     let numberOfRows = tableView.dataSource?.tableView(tableView, numberOfRowsInSection: 0)
-    XCTAssertEqual(233, numberOfRows)
+    XCTAssertEqual(231, numberOfRows)
     
     // Show cell
     // ----------
@@ -35,8 +35,8 @@ class JapaneseListViewControllerTests: XCTestCase {
     let tableViewCell = tableView.dataSource?.tableView(tableView, cellForRowAtIndexPath: indexPath)
       as? TableViewCell
     
-    XCTAssertEqual("ブルーベリー", tableViewCell?.productLabel.text)
-    XCTAssertEqual("845", tableViewCell?.waterLitresLabel.text)
+    XCTAssertEqual("トマト（皮なし）", tableViewCell?.productLabel.text)
+    XCTAssertEqual("267", tableViewCell?.waterLitresLabel.text)
   }
   
   func testSearch() {
@@ -53,6 +53,6 @@ class JapaneseListViewControllerTests: XCTestCase {
     let tableViewCell = tableView.dataSource?.tableView(tableView, cellForRowAtIndexPath: indexPath)
       as? TableViewCell
     
-    XCTAssertEqual("ヒマワリの種", tableViewCell?.productLabel.text)
+    XCTAssertEqual("ヒマワリ（種子）", tableViewCell?.productLabel.text)
   }
 }

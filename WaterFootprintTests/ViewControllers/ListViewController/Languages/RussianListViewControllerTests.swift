@@ -25,7 +25,7 @@ class RussianListViewControllerTests: XCTestCase {
   
   func testShowData() {
     let numberOfRows = tableView.dataSource?.tableView(tableView, numberOfRowsInSection: 0)
-    XCTAssertEqual(231, numberOfRows)
+    XCTAssertEqual(230, numberOfRows)
     
     // Show cell
     // ----------

@@ -12,7 +12,7 @@ class JapaneseParserTests: XCTestCase {
   func testReadAndParse() {
     let result = DataParser.readAndParse(languageCode)
     
-    XCTAssertEqual(233, result.count)
+    XCTAssertEqual(231, result.count)
     
     let first = result.first!
     XCTAssertEqual("アーティチョーク", first.name)
@@ -20,14 +20,14 @@ class JapaneseParserTests: XCTestCase {
     XCTAssertEqual(818, first.waterLitres)
     
     let middle = result[19]
-    XCTAssertEqual("オオバコ", middle.name)
-    XCTAssertEqual("大葉子", middle.synonyms)
-    XCTAssertEqual(1602, middle.waterLitres)
+    XCTAssertEqual("エンドウ豆（乾燥）", middle.name)
+    XCTAssertEqual("えんどう豆,えんどうまめ,エンドウマメ", middle.synonyms)
+    XCTAssertEqual(1979, middle.waterLitres)
     
     let last = result.last!
-    XCTAssertEqual("麻繊維", last.name)
-    XCTAssertEqual("", last.synonyms)
-    XCTAssertEqual(2447, last.waterLitres)
+    XCTAssertEqual("綿（リント）", last.name)
+    XCTAssertEqual("わた, めん,ワタ,メン,コットンリント,繰綿,もめん,モメン", last.synonyms)
+    XCTAssertEqual(9113, last.waterLitres)
   }
   
   func testCheckTextTrimmed() {

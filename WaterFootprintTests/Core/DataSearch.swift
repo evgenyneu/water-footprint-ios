@@ -21,8 +21,11 @@ class DataSearchTests: XCTestCase {
     let model = ProductModel(name: "Beef", synonyms: "Cow meat", waterLitres: 15415)
     
     XCTAssertEqual(true, DataSearch.doesMatchSentence(model, sentence: "Beef meat"))
-    XCTAssertEqual(true, DataSearch.doesMatchSentence(model, sentence: "Beef nothing"))
-    XCTAssertEqual(false, DataSearch.doesMatchSentence(model, sentence: "nothing"))
+    XCTAssertEqual(true, DataSearch.doesMatchSentence(model, sentence: "   Beef    meat  "))
+    XCTAssertEqual(true, DataSearch.doesMatchSentence(model, sentence: "Meat"))
+    XCTAssertEqual(true, DataSearch.doesMatchSentence(model, sentence: "   "))
+    XCTAssertEqual(false, DataSearch.doesMatchSentence(model, sentence: "Beef nomatch"))
+    XCTAssertEqual(false, DataSearch.doesMatchSentence(model, sentence: "nomatch"))
   }
   
   func testDoesMatchSentence_ignoreSpaces() {

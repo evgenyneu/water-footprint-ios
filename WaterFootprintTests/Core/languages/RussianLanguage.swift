@@ -12,7 +12,7 @@ class RussianParserTests: XCTestCase {
   func testReadAndParse() {
     let result = DataParser.readAndParse(languageCode)
     
-    XCTAssertEqual(231, result.count)
+    XCTAssertEqual(230, result.count)
     
     let first = result.first!
     XCTAssertEqual("Абака, волокно", first.name)
