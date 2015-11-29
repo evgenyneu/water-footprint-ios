@@ -39,10 +39,15 @@ class DataSearchTests: XCTestCase {
   func testDoesMatchSingleWord() {
     let model = ProductModel(name: "Beef", synonyms: "Cow meat", waterLitres: 15415)
     
-    XCTAssertEqual(true, DataSearch.doesMatchSingleWord(model, word: "Bee"))
+    XCTAssertEqual(true, DataSearch.doesMatchSingleWord(model, word: "bee"))
     XCTAssertEqual(true, DataSearch.doesMatchSingleWord(model, word: "Meat"))
     XCTAssertEqual(false, DataSearch.doesMatchSingleWord(model, word: "nothing"))
     XCTAssertEqual(false, DataSearch.doesMatchSingleWord(model, word: ""))
+  }
+  
+  func testDoesMatchSingleWord_ignoreDiacritic() {
+    let model = ProductModel(name: "Перец свежий", synonyms: "Чили, красный, чёрный", waterLitres: 15415)
+    XCTAssertEqual(true, DataSearch.doesMatchSingleWord(model, word: "черный"))
   }
   
   func testDoesMatchSingleWord_ignoreSapce() {
