@@ -1,2 +1,2 @@
 Search: 検索
-Units: リットル/キログラム (Litre/kg as better)
+Units: リットル/キログラム (L/kg is better)
