@@ -1,6 +1,6 @@
 # Water Footprint app for iOS
 
-The app shows how much water (in litres) is required to produce a number of agricultural products.
+The app shows how much water (in litres) is required to produce a number of agricultural products. For example, to make a kilo of cheese one needs to use about 5 thousand litres of freshwater.
 
 <a href='https://itunes.apple.com/us/app/water-footprint/id1044041294' title='Download on App Store'><img src='https://raw.githubusercontent.com/evgenyneu/water-footprint-ios/master/Graphics/Readme/appstore_badge.png' height="60" alt='Download Water Footprint on App Store' class='AppStoreBadge'></a>
 
