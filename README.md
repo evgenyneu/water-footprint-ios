@@ -4,7 +4,7 @@ This is an iOS app that shows how much water (in litres) is required to produce 
 
 <a href='https://itunes.apple.com/us/app/water-footprint/id1044041294' title='Download on App Store'><img src='https://raw.githubusercontent.com/evgenyneu/water-footprint-ios/master/Graphics/Readme/appstore_badge.png' height="60" alt='Download Water Footprint on App Store' class='AppStoreBadge'></a>
 
-Water Footprint is [also available](http://evgenii.com/projects/water-footprint-app-ios-android/) on Android.
+Water Footprint is [also available](http://evgenii.com/projects/water-footprint-app-ios-android/) on Android and Web.
 
 ## Help me to localize the app
 
